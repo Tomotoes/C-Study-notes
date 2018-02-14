@@ -1,0 +1,222 @@
+C#的索引器
+
+索引器允许类 或者结构 的实例 按照与 数组相同的 方式进行 索引取值，索引器 与属性相似，不同的是索引器的访问是带参的。
+
+索引器和数组的比较：
+
+1.索引器的索引值 类型 不受限制
+
+2.索引器允许重载
+
+3.索引器不是一个变量
+
+索引器和属性的不同点
+
+1.属性以名称来标识，索引器以函数形式标识
+
+2.索引器可以被重载，属性不可以
+
+3.索引器不能声明为 static ，属性可以
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+
+namespace 索引器
+{
+    class Program
+    {
+        /*
+         普通的索引器，sets[0]="小A";
+         开始就是 创建字符串数组的操作，没什么可说
+         
+         关键在于 属性 其中 this 便是索引器的关键字，记住即可，
+         属性的类型 是由你要操作的对象决定，就比如 Hashtable，你可能存取int 也可能string
+         当然，如果没有接触过索引器，我们会写成 public string sets[0]{ set;get; }
+         但是 索引器是不能出现数组名字的，数组名字是用this代替！千万记住！this 可以理解为 本类 实例化的对象
+         
+         而后面的下标值 很像参数，毕竟属性从形式上 有点像函数，把它理解为下标值参数化 即可，
+         另外注意 下标值的类型 由 Key决定，并且下标值由[ ]括起来。
+          
+         索引器属性标准形式：修饰符 存取对象类型 this关键字 [ 下标值类型 参数名 ]
+        */
+        private string[] sets=new string[10];
+        public string this[int index]
+        {
+            set { sets[index] = value; }
+            get { return sets[index]; }
+        }
+        
+        private Hashtable name = new Hashtable();
+        /*
+        Hashtable 表的每个元素 都是 DictionaryEntry
+        需要知道的是，每个DictionaryEntry 都有两个成员 ： Key,Value
+                                          其中 Key便是 DictionaryEntry的 下标值
+                                          而 Value是 DictionaryEntry的 值
+        
+         并且 Hashtable 必须有 System.Collections;这个要记住（不得不说 很像 STL的map）
+        */
+        
+        
+        //通过下标值进行对value的存取
+        public string this[string index]
+        {
+            set { name.Add(index,value); }
+            /*
+             * 解析下此语句
+             * 其中name是Hashtable的名字，而Add 是Hashtable的功能，增加元素，其中有两个参数
+             * Add（A,B）； 其中 A是 DirectionEntry.Key   第一个参数是下标值；
+             *                   B 是DirectionEntry.Value 第二个参数是值
+             */
+            get { return name[index].ToString(); }
+            /*
+             因为我们存取的都是 string 类型，所以返回的也是 string 类型，
+             同样的，我们是根据 string 类型 进行的操作，所以 属性类型 也是 string 类型
+             */
+        }
+
+        //通过value实现对下标值得存取,就相当于 以前是 name[1]=“小A”  现在是 name["小A"]=1；
+        public int this[string aname]//属性类型 为 int，因为 Key 是 int， 我们存取的 Key
+        {
+            set { name.Add(value, aname); }//顺序改变
+
+            get
+            {
+                foreach (DictionaryEntry d in name)
+                {
+                    if (d.Value.ToString() == aname)
+                    {
+                        return Convert.ToInt32(d.Key);
+                    }
+                }
+                return -1;
+            }
+            /*
+             * 因为 我们现在的Key是string 类型，无法 快速 的找到 我们需要的类型 ，所以 我们需要遍历整个Hashtable
+             */
+        }
+        static void Main(string[] args)
+        {
+            Program Ac=new Program();
+           
+           
+            string A;
+            for (int i = 0; i < 3; ++i)
+            {
+                A=Console.ReadLine();
+                Ac.name[A] = i;
+            }
+            foreach (DictionaryEntry val in Ac.name)
+            {
+                
+                Console.WriteLine(val.Value+"***"+val.Key);
+            }
+
+        }
+    }
+
+      //多参索引器
+
+    public class Student
+    {
+        private string Name;
+        private int No;
+        private string Sex;
+        public Student(string name, int no, string sex)
+        {
+            Name = name;
+            No = no;
+            Sex = sex;
+        }
+        public string Name1
+        {
+            set { Name = value; }
+            get { return Name; }
+        }
+        public int No1
+        {
+            set { No = value; }
+            get { return No; }
+        }
+        public string Sex1
+        {
+            set { Sex = value; }
+            get { return Sex; }
+        }
+    }
+    public class IndexClass
+    {
+        private ArrayList Index;
+        public IndexClass()
+        {
+            Index = new ArrayList();
+        }
+        //一个索引，根据学号找到 信息
+        public Student this[int no]
+        {
+            get 
+            {
+                foreach (Student val in Index)
+                {
+                    if (val.No1 == no)
+                    {
+                        return val;
+                    }
+                }
+                return null;
+            }
+            //不能set 因为 加上 Key 与 Value 只有两个参数 ，无法构造三个参数
+        }
+        //根据姓名找到信息同理
+
+        //两个索引，根据姓名,性别存取信息,
+        /*
+         坑点：在刚开始时 我们把属性定义为 Student ，但是 忘记了 属性的类型也正是 value的类型！
+         */
+        public int this[string name, string sex]
+        {
+            get
+            {
+
+                foreach (Student Temp in Index)
+                {
+                    if (Temp.Name1 == name && Temp.Sex1 == sex)
+                    {
+                        return Temp.No1;
+                    }
+                }
+                return -1;
+            }
+
+            set { Index.Add(new Student(name,value,sex));}
+        }
+        
+    }
+
+    public class Text
+    {
+        static public void Main()
+        {
+            IndexClass In=new IndexClass();
+            
+            In["小A", "女"] = 11;
+            In["小B", "男"] = 18;
+		
+	    很可怕，对象即是索引器！
+
+            Console.WriteLine(In["小B", "男"]);
+            Console.WriteLine(In[11].Name1+' '+In[11].Sex1);
+        }
+    }
+}
+
+C#语言最令人感兴趣的地方就是 类的索引器(indexer)。
+
+简单说来，所谓索引器 就是一类 特殊的属性，通过它们 你就可以像引用数组 一样 引用自己的类，把数据集合的特性 附加在 对象上面。
+
+
+
+

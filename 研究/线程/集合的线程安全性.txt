@@ -1,0 +1,5 @@
+IsSynchoroized 属性用于判断是否为同步版本;
+SyncRoot属性提供了集合自己的同步版本。
+
+Array，Arraylist,SortedList,Hashtable等，
+都可以使用 Synchronized()方法获取一个线程安全的包装对象。

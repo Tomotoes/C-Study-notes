@@ -1,0 +1,25 @@
+用于迭代集合中的项 
+class Pet
+    {
+        public string name;
+        public Pet(string Name)
+        {
+            name = Name;
+        }
+    }
+    class Program
+    {
+        static public void Traverse(IEnumerable<Pet> LIST)
+        {
+            foreach (var item in LIST)
+            {
+                Console.WriteLine(item.name);
+            }
+        }
+        static void Main(string[] args)
+        {
+            List<Pet> Ac = new List<Pet>();
+            Ac.Add(new Pet("12"));
+            Traverse(Ac);
+        }
+    }

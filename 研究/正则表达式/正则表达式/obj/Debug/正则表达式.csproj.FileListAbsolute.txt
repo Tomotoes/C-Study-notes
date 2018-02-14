@@ -1,0 +1,6 @@
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\正则表达式\正则表达式\bin\Debug\正则表达式.exe.config
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\正则表达式\正则表达式\bin\Debug\正则表达式.exe
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\正则表达式\正则表达式\bin\Debug\正则表达式.pdb
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\正则表达式\正则表达式\obj\Debug\正则表达式.csprojResolveAssemblyReference.cache
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\正则表达式\正则表达式\obj\Debug\正则表达式.exe
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\正则表达式\正则表达式\obj\Debug\正则表达式.pdb

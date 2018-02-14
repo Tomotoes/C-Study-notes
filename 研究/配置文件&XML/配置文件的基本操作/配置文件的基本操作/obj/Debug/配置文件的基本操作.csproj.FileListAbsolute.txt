@@ -1,0 +1,6 @@
+H:\C#\自悟\研究\配置文件&XML\配置文件的基本操作\配置文件的基本操作\bin\Debug\配置文件的基本操作.exe.config
+H:\C#\自悟\研究\配置文件&XML\配置文件的基本操作\配置文件的基本操作\bin\Debug\配置文件的基本操作.exe
+H:\C#\自悟\研究\配置文件&XML\配置文件的基本操作\配置文件的基本操作\bin\Debug\配置文件的基本操作.pdb
+H:\C#\自悟\研究\配置文件&XML\配置文件的基本操作\配置文件的基本操作\obj\Debug\配置文件的基本操作.csprojResolveAssemblyReference.cache
+H:\C#\自悟\研究\配置文件&XML\配置文件的基本操作\配置文件的基本操作\obj\Debug\配置文件的基本操作.exe
+H:\C#\自悟\研究\配置文件&XML\配置文件的基本操作\配置文件的基本操作\obj\Debug\配置文件的基本操作.pdb

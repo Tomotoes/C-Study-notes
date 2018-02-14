@@ -1,0 +1,16 @@
+--值类型和引用类型的区别
+
+值类型： 分配在内存空间 在栈里 运行效率高
+值类型 主要有两类组成：结构，枚举结构：Numeric（数值类型），整型等。。。
+
+引用类型：内存分配在堆里，可继承复制内存地址（结构与类）
+
+值类型（Value Type）
+1.简单类型(Simple Type)
+2.结构类型(Struct Type)
+3.枚举类型(Enum Type)
+
+引用类型(Reference Type)
+1.类类型(Class Type)
+2.数组类型(Array Type)
+3.指代类型(Delegate)

@@ -1,0 +1,24 @@
+ 一、Predicate是什么？（注：以下摘自C#技术文档）
+           摘要：表示定义一组条件并确定指定对象是否符合这些条件的方法。
+           public delegate bool Predicate<in T>(T obj)。
+           参数：obj:要按照由此委托表示的方法中定义的条件进行比较的对象。
+           类型参数：T:要比较的对象的类型。
+           返回结果: 如果 obj 符合由此委托表示的方法中定义的条件，则为    true；否则为 false
+           直接看不太容易理解，看一个例子：
+          
+ 		   List<string> list = new List<string>();  
+           list.AddRange(new string[] { "ASP.NET课程","J2EE课程", "PHP课程", "数据结构课程" });  
+           Predicate<string> findPredicate = new Predicate<string>(IsBookCategory);  
+           List<string> bookCategory = list.FindAll(findPredicate);
+           
+		   static bool IsBookCategory(string str)  
+           {  
+              return str.EndsWith("课程") ? true : false;  
+           }  
+ 
+个人理解： 
+            Predicate委托的作用是正像摘要所说：表示定义一组条件并确定指定对象是否符合这些条件的方法。                       
+            即用委托的方式，指定了一个条件。
+      代码中：Predicate的实例findPredicate指向了方法IsBookCatagory()，这个方法定义了一个判定条件。
+             List<string> bookCategory = list.FindAll(findPredicate);   //FindAll()方法查找满足findPredicate指向的条件。
+		   

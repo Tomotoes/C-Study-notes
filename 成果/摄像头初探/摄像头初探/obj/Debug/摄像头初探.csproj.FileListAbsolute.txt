@@ -1,0 +1,9 @@
+c:\users\simon\documents\visual studio 2017\Projects\摄像头初探\摄像头初探\bin\Debug\摄像头初探.exe.config
+c:\users\simon\documents\visual studio 2017\Projects\摄像头初探\摄像头初探\bin\Debug\摄像头初探.exe
+c:\users\simon\documents\visual studio 2017\Projects\摄像头初探\摄像头初探\bin\Debug\摄像头初探.pdb
+c:\users\simon\documents\visual studio 2017\Projects\摄像头初探\摄像头初探\obj\Debug\摄像头初探.csprojResolveAssemblyReference.cache
+c:\users\simon\documents\visual studio 2017\Projects\摄像头初探\摄像头初探\obj\Debug\摄像头初探.Form1.resources
+c:\users\simon\documents\visual studio 2017\Projects\摄像头初探\摄像头初探\obj\Debug\摄像头初探.Properties.Resources.resources
+c:\users\simon\documents\visual studio 2017\Projects\摄像头初探\摄像头初探\obj\Debug\摄像头初探.csproj.GenerateResource.Cache
+c:\users\simon\documents\visual studio 2017\Projects\摄像头初探\摄像头初探\obj\Debug\摄像头初探.exe
+c:\users\simon\documents\visual studio 2017\Projects\摄像头初探\摄像头初探\obj\Debug\摄像头初探.pdb

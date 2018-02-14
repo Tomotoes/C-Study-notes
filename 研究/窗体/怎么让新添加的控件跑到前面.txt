@@ -1,0 +1,3 @@
+ Button C = new Button();
+ this.Controls.Add(C);
+C.BringToFront();

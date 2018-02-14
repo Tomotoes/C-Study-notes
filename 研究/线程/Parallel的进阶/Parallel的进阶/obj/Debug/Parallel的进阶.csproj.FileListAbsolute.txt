@@ -1,0 +1,6 @@
+H:\C#\自悟\研究\线程\Parallel的进阶\Parallel的进阶\bin\Debug\Parallel的进阶.exe.config
+H:\C#\自悟\研究\线程\Parallel的进阶\Parallel的进阶\bin\Debug\Parallel的进阶.exe
+H:\C#\自悟\研究\线程\Parallel的进阶\Parallel的进阶\bin\Debug\Parallel的进阶.pdb
+H:\C#\自悟\研究\线程\Parallel的进阶\Parallel的进阶\obj\Debug\Parallel的进阶.csprojResolveAssemblyReference.cache
+H:\C#\自悟\研究\线程\Parallel的进阶\Parallel的进阶\obj\Debug\Parallel的进阶.exe
+H:\C#\自悟\研究\线程\Parallel的进阶\Parallel的进阶\obj\Debug\Parallel的进阶.pdb

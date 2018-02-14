@@ -1,0 +1,3 @@
+ <DBConnect>
+    <add key="DatabaseConnection" value="server=.; database = StudentPlus;integrated security=true;Connect Timeout =1" />
+  </DBConnect>

@@ -1,0 +1,8 @@
+  private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult d = MessageBox.Show("您确定要退出吗？", "关闭", MessageBoxButtons.YesNo, MessageBoxIcon.Hand);
+            if (d == DialogResult.Cancel)
+            {
+                e.Cancel=true;
+            }
+        }

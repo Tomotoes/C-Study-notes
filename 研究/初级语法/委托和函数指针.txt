@@ -1,0 +1,29 @@
+为什么委托是类型安全的？ C#中的委托和指针不一样。
+
+指针不通过MSIL(.NET的中间语言)而是 直接和内存打交道，这也是指针不安全的原因所在，当然也是采用指针能够提高程序运行速度的缘故。
+
+委托不与内存打交道，而是把这一工作交给CLR(Common Language Runtime，公共语言运行时，简称CLR)去完成。
+
+CLR无法组织将不安全的代码调用本机(非托管)代码中火执行恶意炒作。
+然而 CLR的安全性强制机制将确保代码不会访问本机代码，除非它有访问本机代码的权限。
+
+ public delegate void MyDelegate();
+        static public void Speak()
+        {
+            Console.WriteLine("Speaking!");
+        }
+        static public void Jump()
+        {
+            Console.WriteLine("Jumping!");
+        }
+        static void Main(string[] args)
+        {
+            MyDelegate Ac= Speak;
+            Ac += Jump;
+            Ac();
+
+            MyDelegate Wa = new MyDelegate(Speak);
+            Wa += Jump;
+            Wa -= Speak;
+            Wa();
+        }

@@ -1,0 +1,41 @@
+    public class Animals:CollectionBase
+    {
+        public string Name;
+        public Animals(string name)
+        {
+            Name = name;
+        }
+        public void Add(Animals newAnimals)
+        {
+            List.Add(newAnimals);
+        }
+        public void Remove(Animals oldAnimals)
+        {
+            List.Remove(oldAnimals);
+        }
+        public Animals() { }
+        public void Speak()
+        {
+            Console.WriteLine(Name);
+        }
+    }
+    
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Animals Ac = new Animals();
+            Ac.Add(new Animals("111"));
+            foreach (Animals item in Ac)
+            {
+                item.Speak();
+            }
+            /*
+             * 因为类Animals继承了CollectionBase接口
+             * 所以可以实现List集合功能，直接拿来使用 List即可。
+             * 所以说 类的实例化对象可以理解为一个List集合！很强大！
+             * 这真的很方便。
+             */
+            
+        }
+    }

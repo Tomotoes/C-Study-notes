@@ -1,0 +1,68 @@
+    public class Dog
+    {
+        private string Name;
+
+        public string Name1
+        {
+            get { return Name; }
+            set { Name = value; }
+        }
+        public Dog(string name)
+        {
+            Name = name;
+        }
+        public void PrintName()
+        {
+            Console.WriteLine("Dog's Name is " + Name);
+        }
+        public void IsHappy<T>(T target)
+        {
+            Console.WriteLine("Happy: " +target.ToString());
+        }
+    }
+    public class Person
+    {
+        public string me;
+        public Person(string name)
+        {
+            me = name;
+        }
+    }
+    public interface Ac<T> where T : class
+    {
+        void Act(T cmd);
+    }
+    class Wa : Ac<Dog>
+    {
+        public void Act(Dog dog)
+        {
+            dog.PrintName();
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Wa w = new Wa();
+            w.Act(new Dog("He"));
+            /*
+             * 什么是泛型接口？
+             * 泛型接口允许我们将接口成员的参数和返回类型设置为泛型参数的接口
+             * 
+             * 示例：
+             * interface Myself<T>
+               {
+                T Mysale(T thing);
+               }
+              
+               class A:Myself<A>
+               {
+                public A Mysale(A thing);
+                类型参数可以是实现类本身也可以是其他类型
+               }
+               
+             * 
+             */
+        }
+    }

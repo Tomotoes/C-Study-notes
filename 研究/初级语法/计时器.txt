@@ -1,0 +1,17 @@
+  static void Main(string[] args)
+        {
+            System.Diagnostics.Stopwatch sw = new System.Diagnostics.Stopwatch();
+            sw.Start();
+            char[] A = {'a','b','c'};
+            int L = A.Length;
+            for (int i = 0; i < L; ++i)
+            {
+
+            }
+            sw.Stop();
+            
+            Console.WriteLine(sw.ElapsedTicks);
+
+            sw.Reset();
+            
+        }

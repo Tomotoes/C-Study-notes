@@ -1,0 +1,41 @@
+
+  public class Pet : DictionaryBase
+    {
+        public void Add(string NewID, Pet NewPet)
+        {
+            Dictionary.Add(NewID, NewPet);
+        }
+        public void Remove(string PetID)
+        {
+            Dictionary.Remove(PetID);
+        }
+        public Pet this[string PetID]
+        {
+            get { return (Pet)Dictionary[PetID]; }
+            set { Dictionary[PetID]=value; }
+        }
+        public string Name;
+        public Pet(string name)
+        {
+            Name = name;
+        }
+        public void Speak()
+        {
+            Console.WriteLine(Name);
+        }
+        public Pet() { }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Pet pet = new Pet();
+            pet.Add("001", new Pet("Dog"));
+            pet["001"].Speak();
+            /*
+             * DictionaryBase每个成员带有两个元素：一键一值
+             * 所以用索引器会很方便！
+             */
+            
+        }
+    }

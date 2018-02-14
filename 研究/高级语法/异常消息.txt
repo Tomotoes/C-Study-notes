@@ -1,0 +1,19 @@
+首先 我们要使用using Microsoft.CSharp.RuntimeBinder; 命令
+ try
+            {
+                dynamic firstResult = GetValue();
+                dynamic secondResult = GetValue();
+                //Console.WriteLine($"firstResult is: {firstResult.ToString()}");//也不支持语法糖
+                Console.WriteLine("firstResult is: {0}", firstResult.ToString());
+                Console.WriteLine("secondtResult is: {0}", secondResult.ToString());
+                Console.WriteLine("firstResult call:{0}",firstResult.Add(2,3));
+                Console.WriteLine("firstResult call:{0}", firstResult.Add("2", 3));//会输出不匹配类型
+                Console.WriteLine("secondResult call:{0}",secondResult.Add(2,3));//会输出 不支持方法
+            }
+            //必须要存在using Microsoft.CSharp.RuntimeBinder;指令
+            catch (RuntimeBinderException ex)
+            {
+
+                Console.WriteLine(ex.Message);//输出异常消息，很好用！
+            }
+  是不是很方便！

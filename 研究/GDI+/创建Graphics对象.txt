@@ -1,0 +1,11 @@
+有两种方法
+
+1.（未实现）在Form1_Paintt 事件中创建
+
+protected override void OnPaint(PaintEventArgs e)
+{	Graphics g = e.Graphics;	}
+
+需要注意的事 ，该 对象不可释放 ，因为 不是自己创建的。。
+
+2. Graphics g = this.CreateGraphics();
+需要手动释放

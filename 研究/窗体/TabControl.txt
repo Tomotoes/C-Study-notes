@@ -1,0 +1,14 @@
+    TabControl控件用于创建带有多个标签页的窗口，每个标签页都是一个容纳其他控件的 容器。
+    当窗体功能复杂，控件很多时，就可以使用 TabControl将其分类。
+    
+    介绍下 TabControl控件的8大属性：
+    
+    1.Alignment：决定各标签页的选项卡显示的位置：Top/Left/Bottom/Right
+    2.Appearance：选项卡的样式：鼠标风格，正常风格等
+    3.DrawMode：由系统或用户绘制标题
+    4.HotTrack：指定当鼠标经过各选项卡时，选项卡是否会发生可见变化
+    5.ImageList：指定当前TabControl控件中的各个标签页可以使用的图标集合
+    6.Multiline：表示是否可以创建多行选项卡
+    7.RowCount：获取当前TabControl控件中选项卡的行数
+    8.TabPages：用于定义当前TabControl控件中所要包含的所有标签页
+    

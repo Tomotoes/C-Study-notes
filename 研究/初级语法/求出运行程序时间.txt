@@ -1,0 +1,10 @@
+在程序刚开始时：
+
+Datetime Start = new Datetime.Now；
+
+
+在程序要结束时：
+
+Datetime End = new Datetime.Now;
+
+而程序运行时间 == End-Start

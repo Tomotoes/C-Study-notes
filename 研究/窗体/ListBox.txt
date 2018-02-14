@@ -1,0 +1,48 @@
+checklistbox  是其子类
+
+
+1）ListBox控件的常用属性
+     ?  Items属性：该属性用于存放列表框中的列表项，是一个集合。
+     ?  MultiColumn属性：该属性用来获取或设置一个值，该值指示 ListBox 是否支持多列。
+     ?  ColumnWidth属性：该属性用来获取或设置多列 ListBox 控件中列的宽度。
+     ?  SelectionMode属性：该属性用来获取或设置在 ListBox 控件中选择列表项的方法
+。    
+
+SelectedIndex属性：该属性用来获取或设置 ListBox 控件中当前选定项的从零开始的索引。 
+?  SelectedIndices。该属性用来获取一个集合，该集合包含 ListBox 控件中所有选定项的从零开始的索引。
+?  SelectedItem属性：获取或设置 ListBox 中的当前选定项。
+?  SelectedItems属性：获取ListBox控件中选定项的集合 . 
+?  Sorted属性：获取或设置一个值，该值指示ListBox控件中的列表项是否按字母顺序排序。
+?  Text属性：该属性用来获取或搜索ListBox控件中当前选定项的文本。
+?  ItemsCount属性：该属性用来返回列表项的数目。    
+
+  ?  FindString方法
+该方法用来查找列表项中以指定字符串开始的第一个项，有两种调用格式。
+[格式1]：ListBox对象.FindString(s); 
+[格式2]：ListBox对象.FindString(s,n); 
+  ?  SetSelected方法
+该方法用来选中某一项或取消对某一项的选择，调用格式及功能如下。
+[格式]：ListBox对象.SetSelected(n,l);   
+
+
+Items.Add方法
+该方法用来向列表框中增添一个列表项，调用格式及功能如下。
+[格式]：ListBox对象.Items.Add(s); 
+  ?  Items.Insert方法
+该方法用来在列表框中指定位置插入一个列表项，调用格式及功能如下。
+[格式]：ListBox对象.Items.Insert(n,s); 
+  ?  Items.Remove方法
+该方法用来从列表框中删除一个列表项，调用格式及功能如下。
+[格式]：ListBox对象.Items.Remove(k);   
+
+Items.Clear方法
+该方法用来用来清除列表框中的所有项。其调用格式如下：
+  ListBox对象.Items.Clear(); 
+   ?  BeginUpdate方法和EndUpdate方法。
+这两个方法均无参数，调用格式分别如下：
+ListBox对象.BeginUpdate();
+  ListBox对象.EndUpdate(); 
+（3）ListBox控件的常用事件
+    列表框的常用事件有Click和SelectedIndexChanged，SelectedIndexChanged事件在列表框中改变选中项时发生。  
+
+

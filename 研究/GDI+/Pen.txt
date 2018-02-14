@@ -1,0 +1,30 @@
+一般 Pen类属性，需要使用 using System.Drawing.Drawing2D;
+
+用来指定 图形的轮廓，如颜色和宽度等。
+
+创建画笔：Pen pen = new Pen(Color.Blue,5);
+
+Pen属性：
+
+Alignment：对齐（未实现）
+
+DashStyle：绘制线条 的虚线类型（线点点线之类）
+
+StartCap：起点类型（圆方之类）
+
+EndCap：终点类型
+
+除此之外 Pen还有很多其他属性
+
+Pen pen = new Pen(Color.Red, 2);
+                
+pen.DashCap= DashCap.Round;
+
+pen.DashStyle = DashStyle.DashDot;
+
+pen.Alignment = PenAlignment.Center;
+
+pen.StartCap = LineCap.Round;
+
+pen.EndCap = LineCap.Square;
+

@@ -1,0 +1,58 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace 面向对象的那些事
+{
+    class Pet
+    {
+        public string Name;
+        public virtual void Speak()
+        {
+            Console.WriteLine("Pet's name is " + Name);
+        }
+    }
+    class Dog : Pet
+    {
+        new public void Speak()
+        {
+            Console.WriteLine("宠物的名字是 " + Name);
+        }
+    }
+    class Cat : Pet
+    {
+        override public void Speak()
+        {
+            Console.WriteLine("Hello!");
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+             * 会执行子类的方法，因为其 用了 override 关键字
+             
+             * 为什么会这么做呢，
+             * 因为 父类在执行子类方法时，override 重写了父方法，也就是说 子类有父类方法的升级版
+             * 所以说使用override会执行子类方法
+             */
+            Pet pet = new Cat();//子类实例对象 给 父类引用
+            pet.Speak();
+
+
+            /*
+             * 会执行父类的方法，因为其 用了 new 关键字
+             
+             * 为什么会这么做呢，
+             * 因为父类在执行子类的方法时，new 是隐藏父类方法
+             * 注意，此隐藏是来自于 子类对象的 层面的，而pet3 的类型是父类！
+             * 所以说new 关键字可以忽略，毕竟 pet3是一个父类对象！是来自父类层面的！
+             */
+            Pet pet3 = new Dog();
+            pet3.Speak();
+        }
+    }
+}

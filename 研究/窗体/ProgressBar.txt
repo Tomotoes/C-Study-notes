@@ -1,0 +1,16 @@
+进度条控件 
+
+其属性说一下：
+
+maximum 最大值
+minimum 最小值
+
+step 步进值，一次前进的进度
+
+value 当前值
+
+  private void progressBar1_Click(object sender, EventArgs e)
+        {
+            try { progressBar1.Value += progressBar1.Step; }
+            catch { }
+        }

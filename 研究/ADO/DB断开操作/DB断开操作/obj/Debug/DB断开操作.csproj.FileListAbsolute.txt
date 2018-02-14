@@ -1,0 +1,12 @@
+c:\users\lenovo\documents\visual studio 2013\Projects\DB断开操作\DB断开操作\bin\Debug\DB断开操作.exe.config
+c:\users\lenovo\documents\visual studio 2013\Projects\DB断开操作\DB断开操作\bin\Debug\DB断开操作.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\DB断开操作\DB断开操作\bin\Debug\DB断开操作.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\DB断开操作\DB断开操作\obj\Debug\DB断开操作.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2013\Projects\DB断开操作\DB断开操作\obj\Debug\DB断开操作.DB断开操作.resources
+c:\users\lenovo\documents\visual studio 2013\Projects\DB断开操作\DB断开操作\obj\Debug\DB断开操作.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2013\Projects\DB断开操作\DB断开操作\obj\Debug\DB断开操作.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2013\Projects\DB断开操作\DB断开操作\obj\Debug\DB断开操作.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\DB断开操作\DB断开操作\obj\Debug\DB断开操作.pdb
+H:\C#\自悟\研究\ADO.Net\DB断开操作\DB断开操作\bin\Debug\DB断开操作.exe.config
+H:\C#\自悟\研究\ADO.Net\DB断开操作\DB断开操作\obj\Debug\DB断开操作.exe
+H:\C#\自悟\研究\ADO.Net\DB断开操作\DB断开操作\obj\Debug\DB断开操作.pdb

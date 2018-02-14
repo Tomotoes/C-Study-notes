@@ -1,0 +1,82 @@
+http://www.cnblogs.com/JimmyZhang/archive/2007/09/23/903360.html#3667031
+委托是什么？
+
+委托可以把一个方法作为参数带入另一个方法。
+委托可以理解为指向一个函数的引用。
+事件是一种特殊的委托。
+
+委托具有以下特点：
+
+委托类似于 C++函数指针，但它是类型安全的。
+
+委托允许将方法作为参数进行传递。
+
+委托可用于定义回调方法。
+
+委托可以链接在一起；例如，可以 对一个事件调用多个方法
+
+方法不需要与委托签名 精确匹配
+
+    class A
+    {
+        public void SpeakA()
+        {
+            Console.WriteLine("A");
+        }
+
+    }
+    class B
+    {
+        public void SpeakB()
+        {
+            Console.WriteLine("B");
+        }
+    }
+
+    class Program
+    {
+        delegate void Mydelegate();
+
+        static void Main(string[] args)
+        {
+            /*
+             * 什么是委托？
+             * 委托就是持有一个或者多个方法的对象！并且该对象可以执行，可以传递。
+             * 
+             * 声明委托类型
+             * 委托可以持有方法，那么持有什么样的方法呢？
+             * 可以声明，它是一种引用类型！
+             * delegate void ActCute();
+             * 
+             * 定义委托类型的对象    
+             * 既然是种类型，就可以定义该类型的对象
+             * ActCute act;
+             * 
+             * 给委托对象赋值
+             * class Dog
+               {
+                public void WagTail { ... }
+               }
+             * Dog dog = new Dog("xx")；
+             * act = dog.WagTail;
+             * 
+             * 使用委托类型
+             * 像调用函数一样使用委托类型 :  act();
+             * 
+             */
+            //委托的定义格式：就好比是 方法的定义，只不过前面加了 委托关键字 delegate
+            //委托实例化： 委托名  委托对象 ；
+            //委托使用： 委托对象 = / += / -= 方法；  委托对象()；
+            //格式要点：除了最开始的委托定义，与最后的委托使用，中间过程 委托是用不着括号的()
+            A a = new A();
+            B b = new B();
+            Mydelegate me = null;
+            me = a.SpeakA;
+            me += b.SpeakB;
+            me();
+            
+        }
+    }
+
+
+看开了，很简单，委托就是函数变量，变量懂吗！

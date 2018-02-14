@@ -1,0 +1,7 @@
+在传说中 存在一个很神奇的类，专门用来读取数据的类
+
+它就是！
+
+...
+
+RedisRepository<xxx> rDb = new RedisRepository<xxx>();

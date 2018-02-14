@@ -1,0 +1,6 @@
+H:\C#\自悟\研究\线程\async与await\async与await\bin\Debug\async与await.exe.config
+H:\C#\自悟\研究\线程\async与await\async与await\bin\Debug\async与await.exe
+H:\C#\自悟\研究\线程\async与await\async与await\bin\Debug\async与await.pdb
+H:\C#\自悟\研究\线程\async与await\async与await\obj\Debug\async与await.csprojResolveAssemblyReference.cache
+H:\C#\自悟\研究\线程\async与await\async与await\obj\Debug\async与await.exe
+H:\C#\自悟\研究\线程\async与await\async与await\obj\Debug\async与await.pdb

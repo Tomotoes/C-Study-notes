@@ -1,0 +1,6 @@
+H:\C#\自悟\研究\线程\将APM模式转换为任务\将APM模式转换为任务\bin\Debug\将APM模式转换为任务.exe.config
+H:\C#\自悟\研究\线程\将APM模式转换为任务\将APM模式转换为任务\bin\Debug\将APM模式转换为任务.exe
+H:\C#\自悟\研究\线程\将APM模式转换为任务\将APM模式转换为任务\bin\Debug\将APM模式转换为任务.pdb
+H:\C#\自悟\研究\线程\将APM模式转换为任务\将APM模式转换为任务\obj\Debug\将APM模式转换为任务.csprojResolveAssemblyReference.cache
+H:\C#\自悟\研究\线程\将APM模式转换为任务\将APM模式转换为任务\obj\Debug\将APM模式转换为任务.exe
+H:\C#\自悟\研究\线程\将APM模式转换为任务\将APM模式转换为任务\obj\Debug\将APM模式转换为任务.pdb

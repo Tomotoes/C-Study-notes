@@ -1,0 +1,12 @@
+G:\C#\Text\高级语法篇\高级语法篇\bin\Debug\高级语法篇.exe.config
+G:\C#\Text\高级语法篇\高级语法篇\bin\Debug\高级语法篇.exe
+G:\C#\Text\高级语法篇\高级语法篇\bin\Debug\高级语法篇.pdb
+G:\C#\Text\高级语法篇\高级语法篇\obj\Debug\高级语法篇.csprojResolveAssemblyReference.cache
+G:\C#\Text\高级语法篇\高级语法篇\obj\Debug\高级语法篇.exe
+G:\C#\Text\高级语法篇\高级语法篇\obj\Debug\高级语法篇.pdb
+H:\C#\自悟\成果\随机数\高级语法篇\bin\Debug\高级语法篇.exe.config
+H:\C#\自悟\成果\随机数\高级语法篇\obj\Debug\高级语法篇.exe
+H:\C#\自悟\成果\随机数\高级语法篇\obj\Debug\高级语法篇.pdb
+H:\C#\自悟\成果\随机数\高级语法篇\bin\Debug\高级语法篇.exe
+H:\C#\自悟\成果\随机数\高级语法篇\bin\Debug\高级语法篇.pdb
+H:\C#\自悟\成果\随机数\高级语法篇\obj\Debug\高级语法篇.csprojResolveAssemblyReference.cache

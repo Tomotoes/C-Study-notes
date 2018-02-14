@@ -1,0 +1,21 @@
+Pet pet = new Pet();
+            Animals Animal = new Animals();
+            Animals Bnimal = new Animals();
+            //类型比较.1 GetType() 与 typef()
+            if (pet.GetType() == typeof(Animals))//typeof(类名) == 对象名.GetType()
+            {
+                Console.WriteLine(1);
+            }
+            else
+            {
+                Console.WriteLine(0);
+            }
+            //类型比较.2 is  如果是继承关系：子类父类，实现类接口，相同值类型 都会返回 true
+            if (Bnimal is Animals)
+            {
+                Console.WriteLine(1);
+            }
+            else
+            {
+                Console.WriteLine(0);
+            }

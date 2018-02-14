@@ -1,0 +1,9 @@
+this.Controls.Add(new Button());
+
+this.Controls.Add(buttons[0, 0]);
+
+this.Controls.AddRange(new Button[] {new Button(),new Button()});
+
+this.Controls.AddRange(new System.Windows.Forms.Control[]{this.button1});
+
+Remove ÈçAdd Ò»Ñù

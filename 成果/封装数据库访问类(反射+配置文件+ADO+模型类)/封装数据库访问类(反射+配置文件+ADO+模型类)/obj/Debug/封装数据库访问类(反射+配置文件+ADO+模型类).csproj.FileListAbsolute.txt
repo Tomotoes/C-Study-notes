@@ -1,0 +1,12 @@
+c:\users\lenovo\Documents\Visual Studio 2013\Projects\封装数据库访问类(反射+配置文件+ADO+模型类)\封装数据库访问类(反射+配置文件+ADO+模型类)\bin\Debug\封装数据库访问类(反射+配置文件+ADO+模型类).exe.config
+c:\users\lenovo\Documents\Visual Studio 2013\Projects\封装数据库访问类(反射+配置文件+ADO+模型类)\封装数据库访问类(反射+配置文件+ADO+模型类)\bin\Debug\封装数据库访问类(反射+配置文件+ADO+模型类).exe
+c:\users\lenovo\Documents\Visual Studio 2013\Projects\封装数据库访问类(反射+配置文件+ADO+模型类)\封装数据库访问类(反射+配置文件+ADO+模型类)\bin\Debug\封装数据库访问类(反射+配置文件+ADO+模型类).pdb
+c:\users\lenovo\Documents\Visual Studio 2013\Projects\封装数据库访问类(反射+配置文件+ADO+模型类)\封装数据库访问类(反射+配置文件+ADO+模型类)\obj\Debug\封装数据库访问类(反射+配置文件+ADO+模型类).exe
+c:\users\lenovo\Documents\Visual Studio 2013\Projects\封装数据库访问类(反射+配置文件+ADO+模型类)\封装数据库访问类(反射+配置文件+ADO+模型类)\obj\Debug\封装数据库访问类(反射+配置文件+ADO+模型类).pdb
+c:\users\lenovo\Documents\Visual Studio 2013\Projects\封装数据库访问类(反射+配置文件+ADO+模型类)\封装数据库访问类(反射+配置文件+ADO+模型类)\obj\Debug\封装数据库访问类(反射+配置文件+ADO+模型类).csprojResolveAssemblyReference.cache
+H:\C#\封装数据库访问类(反射+配置文件+ADO+模型类)\封装数据库访问类(反射+配置文件+ADO+模型类)\bin\Debug\封装数据库访问类(反射+配置文件+ADO+模型类).exe.config
+H:\C#\封装数据库访问类(反射+配置文件+ADO+模型类)\封装数据库访问类(反射+配置文件+ADO+模型类)\obj\Debug\封装数据库访问类(反射+配置文件+ADO+模型类).exe
+H:\C#\封装数据库访问类(反射+配置文件+ADO+模型类)\封装数据库访问类(反射+配置文件+ADO+模型类)\obj\Debug\封装数据库访问类(反射+配置文件+ADO+模型类).pdb
+H:\C#\封装数据库访问类(反射+配置文件+ADO+模型类)\封装数据库访问类(反射+配置文件+ADO+模型类)\bin\Debug\封装数据库访问类(反射+配置文件+ADO+模型类).exe
+H:\C#\封装数据库访问类(反射+配置文件+ADO+模型类)\封装数据库访问类(反射+配置文件+ADO+模型类)\bin\Debug\封装数据库访问类(反射+配置文件+ADO+模型类).pdb
+H:\C#\封装数据库访问类(反射+配置文件+ADO+模型类)\封装数据库访问类(反射+配置文件+ADO+模型类)\obj\Debug\封装数据库访问类(反射+配置文件+ADO+模型类).csprojResolveAssemblyReference.cache

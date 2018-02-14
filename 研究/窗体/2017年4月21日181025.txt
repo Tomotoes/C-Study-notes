@@ -1,0 +1,29 @@
+1.边框：
+鼠标边框:popup
+文本边框：Borderstyle
+2.如何处理控件透明度：
+背景颜色->Web->第一个 便是透明，并且空间边框要选popup
+3.控件布局的两大属性：Dock，Anchor
+4.怎么设置文本框的最大输入：TextBox.Maxlength
+5.TextBox的多行属性multline
+6.怎么才能焦点移开文本框，仍然是选中状态
+Hideselection
+7.密码框：passwordChar：密码掩码,注意不能复制
+8.ReadOnly 只读
+9.scrollBars：滚动条
+水平：Hxxx，vertical：垂直，Both：垂直水平
+别忘了，水平滚动条与自动换行的羁绊
+10.自动换行：wordwrap
+11.选中的字符串selectedtext。。。
+12.选中字符串的长度：selectionLength
+13.选定文本的起始点，下标值形式：selectionStart
+14.Modified：修改
+15.Undo：修改
+16.你知道吗，ToString() 远远没有那么简单，可以指定形式的转换你想要的东西。
+Eg：toolStripStatusLabel1.Text = "现在时刻:"+System.DateTime.Now.ToString("hh:mm:ss");
+
+另外ToString的同伙也很多。
+17.timer的两个用法，在界面加载时，应该启动timer.start()  编写程序应该写在timer的唯一事件：Tick里面
+18.怎么控制焦点的顺序：
+i.可以利用 this.focus
+ii.可以设置每个控件的TabIdx

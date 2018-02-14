@@ -1,0 +1,15 @@
+Hashtable 表的每个元素 都是 DictionaryEntry
+        需要知道的是，每个DictionaryEntry 都有两个成员 ： Key,Value
+                                          其中 Key便是 DictionaryEntry的 下标值
+                                          而 Value是 DictionaryEntry的 值
+        
+         并且 Hashtable 必须有 System.Collections;这个要记住（不得不说 很像 STL的map）
+
+
+set { name.Add(index,value); }
+            /*
+             * 解析下此语句
+             * 其中name是Hashtable的名字，而Add 是Hashtable的功能，增加元素，其中有两个参数
+             * Add（A,B）； 其中 A是 DirectionEntry.Key   第一个参数是下标值；
+             *                   B 是DirectionEntry.Value 第二个参数是值
+             */

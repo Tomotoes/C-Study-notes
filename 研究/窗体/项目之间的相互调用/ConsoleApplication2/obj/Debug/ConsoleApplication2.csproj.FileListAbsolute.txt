@@ -1,0 +1,8 @@
+D:\UserData\lenovo\Desktop\ConsoleApplication1\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+D:\UserData\lenovo\Desktop\ConsoleApplication1\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+D:\UserData\lenovo\Desktop\ConsoleApplication1\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+D:\UserData\lenovo\Desktop\ConsoleApplication1\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+D:\UserData\lenovo\Desktop\ConsoleApplication1\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+D:\UserData\lenovo\Desktop\ConsoleApplication1\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb
+D:\UserData\lenovo\Desktop\ConsoleApplication1\ConsoleApplication2\bin\Debug\ConsoleApplication1.exe
+D:\UserData\lenovo\Desktop\ConsoleApplication1\ConsoleApplication2\bin\Debug\ConsoleApplication1.pdb

@@ -1,0 +1,6 @@
+c:\users\simon\documents\visual studio 2017\Projects\异步数据库操作\异步数据库操作\bin\Debug\异步数据库操作.exe.config
+c:\users\simon\documents\visual studio 2017\Projects\异步数据库操作\异步数据库操作\bin\Debug\异步数据库操作.exe
+c:\users\simon\documents\visual studio 2017\Projects\异步数据库操作\异步数据库操作\bin\Debug\异步数据库操作.pdb
+c:\users\simon\documents\visual studio 2017\Projects\异步数据库操作\异步数据库操作\obj\Debug\异步数据库操作.csprojResolveAssemblyReference.cache
+c:\users\simon\documents\visual studio 2017\Projects\异步数据库操作\异步数据库操作\obj\Debug\异步数据库操作.exe
+c:\users\simon\documents\visual studio 2017\Projects\异步数据库操作\异步数据库操作\obj\Debug\异步数据库操作.pdb

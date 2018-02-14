@@ -1,0 +1,6 @@
+G:\C#\自悟\研究\线程\Timer\Timer\bin\Debug\Timer.exe.config
+G:\C#\自悟\研究\线程\Timer\Timer\bin\Debug\Timer.exe
+G:\C#\自悟\研究\线程\Timer\Timer\bin\Debug\Timer.pdb
+G:\C#\自悟\研究\线程\Timer\Timer\obj\Debug\Timer.csprojResolveAssemblyReference.cache
+G:\C#\自悟\研究\线程\Timer\Timer\obj\Debug\Timer.exe
+G:\C#\自悟\研究\线程\Timer\Timer\obj\Debug\Timer.pdb

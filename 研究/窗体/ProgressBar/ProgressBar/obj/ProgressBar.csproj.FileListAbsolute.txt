@@ -1,0 +1,8 @@
+D:\C#例题\ProgressBar\ProgressBar\bin\Debug\ProgressBar.exe
+D:\C#例题\ProgressBar\ProgressBar\bin\Debug\ProgressBar.pdb
+D:\C#例题\ProgressBar\ProgressBar\obj\Debug\ResolveAssemblyReference.cache
+D:\C#例题\ProgressBar\ProgressBar\obj\Debug\ProgressBar.Form1.resources
+D:\C#例题\ProgressBar\ProgressBar\obj\Debug\ProgressBar.Properties.Resources.resources
+D:\C#例题\ProgressBar\ProgressBar\obj\Debug\ProgressBar.csproj.GenerateResource.Cache
+D:\C#例题\ProgressBar\ProgressBar\obj\Debug\ProgressBar.exe
+D:\C#例题\ProgressBar\ProgressBar\obj\Debug\ProgressBar.pdb

@@ -1,0 +1,52 @@
+1.可以更加方便的设置属性 int X{ get;} = 5;
+
+2.我们将引入的一种新的using子句，它引用类型而非命名空间
+  这样便可将该类型的静态成员直接放入作用域中，由此也放入名称中
+  例如：如果看一看这种静态方法调用，便会发现无需添加
+
+using static System.Math;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        public double x,y;
+        public double Dist=>Sqrt(x*x+y*y);
+    }
+}
+让星期一只是星期一 黄色只是一种颜色
+
+3.字符串内插 public override string ToString()=> $"({X},{Y})";
+
+4.索引构造 var Result = new JObject(){["x"]=X,["y"]=Y};
+           public Jobject ToJson() => new JObject(){["x"]=X,["y"]=Y};
+
+5.?. null条件运算符
+  OnChanged?.Invoke(this,args); 
+  就相当于一个三目运算符 只有不为null时才能调用方法
+
+6.Nameof运算符：使你获得该字符串，就算改变 永远指向最新的字符串
+  public Point Add(Point point)
+ { if(point == null){throw new ArgumentNullException(nameof(point));}}
+
+7.await 的新用法？
+  catch(ConfigurationException e)when(e.IsSevere)
+ { await LogAsync(e); }
+  finally
+ { await CloseAsync(); }
+
+8.表达式属性：
+
+public DateTime Birthday{get;set;}=Convert.ToDateTime("1990-01-02");
+
+Old: public int Age{ get{return DateTime.Now.Year - Birthday.Year;}}
+
+只有一个get访问器的单行属性，可以使用Lambda语法编写
+
+New: public int Age =>DateTime.Now.Year - Birthday.Year;
+
+9.表达式方法（只有一条语句的方法，可以使用Lambda语法编写）
+
+public int Add(int a, int b) { return a + b; }
+
+public int Add2(int a,int b)=> a + b;

@@ -1,0 +1,12 @@
+D:\UserData\lenovo\Desktop\Parallel.ForEach\Parallel.ForEach\bin\Debug\Parallel.ForEach.exe.config
+D:\UserData\lenovo\Desktop\Parallel.ForEach\Parallel.ForEach\bin\Debug\Parallel.ForEach.exe
+D:\UserData\lenovo\Desktop\Parallel.ForEach\Parallel.ForEach\bin\Debug\Parallel.ForEach.pdb
+D:\UserData\lenovo\Desktop\Parallel.ForEach\Parallel.ForEach\obj\Debug\Parallel.ForEach.csprojResolveAssemblyReference.cache
+D:\UserData\lenovo\Desktop\Parallel.ForEach\Parallel.ForEach\obj\Debug\Parallel.ForEach.exe
+D:\UserData\lenovo\Desktop\Parallel.ForEach\Parallel.ForEach\obj\Debug\Parallel.ForEach.pdb
+H:\C#\自悟\研究\多线程\Parallel.ForEach\Parallel.ForEach\bin\Debug\Parallel.ForEach.exe.config
+H:\C#\自悟\研究\多线程\Parallel.ForEach\Parallel.ForEach\obj\Debug\Parallel.ForEach.exe
+H:\C#\自悟\研究\多线程\Parallel.ForEach\Parallel.ForEach\obj\Debug\Parallel.ForEach.pdb
+H:\C#\自悟\研究\多线程\Parallel.ForEach\Parallel.ForEach\bin\Debug\Parallel.ForEach.exe
+H:\C#\自悟\研究\多线程\Parallel.ForEach\Parallel.ForEach\bin\Debug\Parallel.ForEach.pdb
+H:\C#\自悟\研究\多线程\Parallel.ForEach\Parallel.ForEach\obj\Debug\Parallel.ForEach.csprojResolveAssemblyReference.cache

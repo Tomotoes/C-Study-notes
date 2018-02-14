@@ -1,0 +1,36 @@
+用于判断 运行时对象的类型
+
+格式：对象 is 类型
+不是 null
+可转换，而不异常
+
+class Program
+    {
+        static public void Text(object a)
+        {
+            if (a is B)
+            {
+                B b = (B)a;
+                b.Show();
+            }
+            else
+            {
+                Console.WriteLine(a.GetType()+" is not B!");
+            }
+        }
+        static void Main(string[] args)
+        {
+            Text(new A());
+        }
+    }
+    class A
+    {
+
+    }
+    class B : A
+    {
+        public void Show()
+        {
+            Console.WriteLine("B is Showing!");
+        }
+    }

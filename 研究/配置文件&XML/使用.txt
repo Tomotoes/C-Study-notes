@@ -1,0 +1,43 @@
+要使用代码访问 app.config 文件，
+
+除添加引用 System.Configuration外，
+
+还必须在项目添加 对System.Configuration.dll的引用
+
+
+<addSettings>
+
+ <add key="SQLConnection" value="server=.;database=StudentPlus;integrated security=true"/>
+
+</addSettings>
+
+
+仔细想了一想 还是下面这样更帅一些
+
+<connectionString>
+
+ <add name="Customers" ConnectionString="server=.;database=StudentPlus;integrated security=true"/>
+
+</connectionString>
+
+兄弟 因为一个大小写的习惯 浪费了近一个小时。。。
+
+XML识别大小写的！所以说 以后写XML务必用小写！
+
+
+我靠，我明白配置文件的奥秘了：
+
+我们在调用配置文件时，就是出现子节点的时候比如：
+
+AppSettings  /  ConnectionStrings
+
+我们在写对应的Config配置文件时，一定要记住 首字母小写！！！不然开局都启动不了
+
+  <connectionStrings>
+    <add name="Customers" connectionString="server=.;database=StudentPlus;integrated security=true"/>
+  </connectionStrings>
+
+并且 子节点中的属性 对应着，也要小写！
+
+因为 VS是先调试配置文件的！
+ 

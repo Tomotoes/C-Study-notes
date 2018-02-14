@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{71FEB127-B49C-4D27-A264-40E7B5F6AEDC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>学生信息管理系统</RootNamespace>
+    <AssemblyName>学生信息管理系统</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anthor.Designer.cs">
+      <DependentUpon>Anthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Heart.cs" />
+    <Compile Include="ExplanationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExplanationForm.Designer.cs">
+      <DependentUpon>ExplanationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFrom.Designer.cs">
+      <DependentUpon>MainFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageInfoForm.Designer.cs">
+      <DependentUpon>ManageInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReadInfoForm.Designer.cs">
+      <DependentUpon>ReadInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchInfoForm.Designer.cs">
+      <DependentUpon>SearchInfoForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Anthor.resx">
+      <DependentUpon>Anthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExplanationForm.resx">
+      <DependentUpon>ExplanationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFrom.resx">
+      <DependentUpon>MainFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageInfoForm.resx">
+      <DependentUpon>ManageInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ReadInfoForm.resx">
+      <DependentUpon>ReadInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchInfoForm.resx">
+      <DependentUpon>SearchInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\NoPicture.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Image\TipPic.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

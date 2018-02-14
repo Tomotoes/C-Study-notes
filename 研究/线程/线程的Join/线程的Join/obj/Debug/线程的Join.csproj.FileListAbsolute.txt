@@ -1,0 +1,12 @@
+D:\UserData\lenovo\Desktop\线程的Join\线程的Join\bin\Debug\线程的Join.exe.config
+D:\UserData\lenovo\Desktop\线程的Join\线程的Join\bin\Debug\线程的Join.exe
+D:\UserData\lenovo\Desktop\线程的Join\线程的Join\bin\Debug\线程的Join.pdb
+D:\UserData\lenovo\Desktop\线程的Join\线程的Join\obj\Debug\线程的Join.csprojResolveAssemblyReference.cache
+D:\UserData\lenovo\Desktop\线程的Join\线程的Join\obj\Debug\线程的Join.exe
+D:\UserData\lenovo\Desktop\线程的Join\线程的Join\obj\Debug\线程的Join.pdb
+G:\C#\自悟\研究\线程\线程的Join\线程的Join\bin\Debug\线程的Join.exe.config
+G:\C#\自悟\研究\线程\线程的Join\线程的Join\bin\Debug\线程的Join.exe
+G:\C#\自悟\研究\线程\线程的Join\线程的Join\bin\Debug\线程的Join.pdb
+G:\C#\自悟\研究\线程\线程的Join\线程的Join\obj\Debug\线程的Join.csprojResolveAssemblyReference.cache
+G:\C#\自悟\研究\线程\线程的Join\线程的Join\obj\Debug\线程的Join.exe
+G:\C#\自悟\研究\线程\线程的Join\线程的Join\obj\Debug\线程的Join.pdb

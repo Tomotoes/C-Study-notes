@@ -1,0 +1,6 @@
+H:\C#\自悟\研究\初级语法篇\再续类型\再续类型\bin\Debug\再续类型.exe.config
+H:\C#\自悟\研究\初级语法篇\再续类型\再续类型\bin\Debug\再续类型.exe
+H:\C#\自悟\研究\初级语法篇\再续类型\再续类型\bin\Debug\再续类型.pdb
+H:\C#\自悟\研究\初级语法篇\再续类型\再续类型\obj\Debug\再续类型.csprojResolveAssemblyReference.cache
+H:\C#\自悟\研究\初级语法篇\再续类型\再续类型\obj\Debug\再续类型.exe
+H:\C#\自悟\研究\初级语法篇\再续类型\再续类型\obj\Debug\再续类型.pdb

@@ -1,0 +1,23 @@
+    class Program
+    {
+        delegate void Mydelegate();
+
+        static void Main(string[] args)
+        {
+           /*
+            * 什么是匿名方法?
+            * delegate void ActCute()；
+            * ActCute del;
+            * del = delegate(){...};
+            * 
+            * 什么是Lambda表达式
+            * del=delegate(){...};
+            * del=()=>{...};
+            */
+
+            Mydelegate del;
+            del = delegate() { Console.WriteLine("Head pain!"); };
+            del += () => Console.WriteLine("Papa!");
+            del();
+        }
+    }

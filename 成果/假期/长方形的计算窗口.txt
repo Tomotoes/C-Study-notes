@@ -1,0 +1,41 @@
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace First
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double C,K;
+            C = Convert.ToDouble(textBox1.Text);//输入的形式 ： 转换 + 需要输入的地方
+            K = Convert.ToDouble(textBox2.Text);
+            double L, S;
+            L = (C + K) * 2;
+            S = C * K;
+
+            textBox3.Text = L.ToString();//输出的形式 ： 输入的地方  被赋值 转换为字符串形式后的输入的东西
+            textBox5.Text = S.ToString();
+        }
+
+       
+    }
+}

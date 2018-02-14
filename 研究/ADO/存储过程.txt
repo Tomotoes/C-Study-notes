@@ -1,0 +1,54 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
+using System.Data.SqlClient;
+
+namespace WindowsApplication1
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SqlConnection ss = new SqlConnection("server=(local);database=stu;integrated security=true");
+            ss.Open();
+            SqlCommand comm = new SqlCommand();
+            comm.CommandType = CommandType.StoredProcedure;  //指定命令类型为一个存储过程
+            comm.CommandText = "ist";                        //指定存储过程名字
+            comm.Connection = ss;
+
+            SqlParameter aa = new SqlParameter("num", SqlDbType.Int);   //定义第一个参数
+            aa.Value=Convert.ToInt32(textBox1.Text);
+
+            SqlParameter bb = new SqlParameter("name", SqlDbType.VarChar);//定义第二个参数
+            bb.Value = textBox2.Text;
+
+            //SqlParameter cc = new SqlParameter("age", SqlDbType.Int);
+            //cc.Value = Convert.ToInt32(textBox3.Text);
+
+            comm.Parameters.Add(aa);           //添加第一个参数
+            comm.Parameters.Add(bb);           //添加第二个参数
+            comm.Parameters.Add("age", SqlDbType.Int).Value = Convert.ToInt32(textBox3.Text); //定义并添加第三个参数
+
+            comm.ExecuteNonQuery();
+
+            ss.Close();
+        }
+    }
+}
+
+CREATE PROCEDURE Stu
+@No as tinyint,@Name as nvarchar(50),@Age as smallint
+AS
+BEGIN
+	insert into Information values(@No,@Name,@Age)
+END
+GO

@@ -1,0 +1,10 @@
+            label1.Text = "行号: " + Main.Lines.Count();
+            //总行数
+            
+            int index = Main.GetFirstCharIndexOfCurrentLine();
+            //得到当前行第一个字符的索引
+           
+            int col = Main.SelectionStart - index ;
+            //SelectionStart得到光标所在位置的索引 减去 当前行第一个字符的索引 = 光标所在的列数（从0开始)
+
+            label2.Text = "列号: " + col.ToString();

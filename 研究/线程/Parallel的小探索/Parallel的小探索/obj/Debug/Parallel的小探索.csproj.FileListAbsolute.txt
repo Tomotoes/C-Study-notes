@@ -1,0 +1,6 @@
+H:\C#\自悟\研究\线程\Parallel的小探索\Parallel的小探索\bin\Debug\Parallel的小探索.exe.config
+H:\C#\自悟\研究\线程\Parallel的小探索\Parallel的小探索\bin\Debug\Parallel的小探索.exe
+H:\C#\自悟\研究\线程\Parallel的小探索\Parallel的小探索\bin\Debug\Parallel的小探索.pdb
+H:\C#\自悟\研究\线程\Parallel的小探索\Parallel的小探索\obj\Debug\Parallel的小探索.csprojResolveAssemblyReference.cache
+H:\C#\自悟\研究\线程\Parallel的小探索\Parallel的小探索\obj\Debug\Parallel的小探索.exe
+H:\C#\自悟\研究\线程\Parallel的小探索\Parallel的小探索\obj\Debug\Parallel的小探索.pdb

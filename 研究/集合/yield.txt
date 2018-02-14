@@ -1,0 +1,17 @@
+ class Program
+    {
+        public static IEnumerable SimpeList()
+        {
+            yield return "string 1";
+            yield return "string 2";
+            //yield  break;         自定义结束
+            yield return "string 3";
+        }
+        static void Main(string[] args)
+        {
+            foreach (var item in SimpeList())//记住操作此自定义集合需要带括号！
+            {
+                Console.WriteLine(item);
+            }
+        }
+    }

@@ -1,0 +1,3 @@
+我们都知道 string是引用类型，但是 很特殊，赋值时，不像是普通引用
+
+而是 string A="123"; == string A=new string(){"123"};

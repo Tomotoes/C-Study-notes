@@ -1,0 +1,16 @@
+我们知道了 可空类型 适用于变量，那么事件有没有可空类型呢？
+让我们看下面的例子：
+int Count=0;
+if(customer.orders!=null){ count=customer.orders.Count();}
+
+如果只编写了这段代码，但客户没有订单(即是null)，就会抛出异常
+
+而使用 空条件运算符 会把 int?count 设置为null 而不是抛出异常
+
+int? count=customer.orders?.Count();
+
+结合空结合操作符?? 与 空条件运算符?. 可以在结果是null时设置一个默认值
+
+int? count=customer.orders?.Count() ?? 0;
+
+空条件运算符的另一个用途是触发事件

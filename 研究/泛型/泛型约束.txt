@@ -1,0 +1,48 @@
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+             * 什么是约束？
+             * 约束就是控制泛型这匹烈马的缰绳，缩小泛型参数的范围
+             * 
+             * 约束的意义：
+             * 只有添加了约束，才能调用泛型参数中(比如 T)的方法，否则只能调用 object的方法
+             * 泛型类和泛型方法都可以添加约束
+             * 
+             * 约束的类型：类名，class任何类，struct任何值，接口名，new()
+             * 
+             * 约束叠加规则（顺序规则）：
+             * First ：类名，class，struct（主约束，只能有一个）
+             * second：接口约束（任意多个）
+             * third ：构造约束   
+             * 
+             * 实例：
+             * void Cage<T>(T target) where T:Person,ClimbTree,new() 或者 class int
+               {   ...   }                      其中new() 是默认构造函数，可以在泛型中实例化
+             */
+        }
+    }
+
+声明特性：
+
+1.如果某个类型所继承的基类型中受到了约束，该类型就不能“解除约束”
+也就说，类型T在所继承的基类型中使用时：该类型必须受到至少与基类型相同的约束
+
+2.如果继承自一个泛型类型，就必须提供所有必需的类型信息
+eg：
+public class Cards:List<Card>,ICloneable{} 	这是正确的
+public class Cards:List<T>,ICloneable{} 	这是错误的
+
+泛型约束
+
+class 类名<T1>:继承xxx where T1:xxx/constraint1{....}where T2：xxx constraint2{....}
+
+其中 constraint定义了约束，可以用这种方式提供许多约束 还可以使用多个where
+需要注意 约束必须出现在继承说明符的后面。
+
+其中约束有很多，我们只说特别的约束,详细请见书281
+
+new() 类型必须有一个公共的无参构造函数
+在类中，需要能实例化T类型的变量，例如在构造函数中实例化
+如果new() 用作约束，它就必须是类型指定的最后一个约束

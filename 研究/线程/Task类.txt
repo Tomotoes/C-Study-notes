@@ -1,0 +1,23 @@
+·Task类，是利用 线程池来进行任务的执行
+	·比直接用 ThreadPool更优化 ，而且编程更方便
+
+Task类的使用
+·最常用方法：使用 Task.Run 方法来得到Task的实例
+	Task<double>task = Task.Run(()=>SomeFun());  注意：<double>泛型？
+	Run 里面调用某一个函数 得到一个结果，是利用线程池 很优化的执行。
+
+·double result = task.Result;//等待直到获得结果
+
+·可以使用 Task.WaitAll(task数组)
+
+·可以使用 task.ContinueWith(另一个task)让多个任务 一个接一个的执行
+
+Task中的异常
+
+·可以使用 AggregateException( 合并的异常 )
+try{ Task.WaitAll(task1,task2,task3); }
+catch(AggregateException ex)
+{
+foreach(Exception inner in ex.InnerExceptions)
+{cw(inner.GetType(),inner.Source);}
+}

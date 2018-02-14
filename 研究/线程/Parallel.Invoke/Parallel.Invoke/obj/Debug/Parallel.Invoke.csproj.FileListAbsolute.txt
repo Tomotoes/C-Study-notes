@@ -1,0 +1,9 @@
+D:\UserData\lenovo\Desktop\Parallel.Invoke\Parallel.Invoke\bin\Debug\Parallel.Invoke.exe.config
+D:\UserData\lenovo\Desktop\Parallel.Invoke\Parallel.Invoke\bin\Debug\Parallel.Invoke.exe
+D:\UserData\lenovo\Desktop\Parallel.Invoke\Parallel.Invoke\bin\Debug\Parallel.Invoke.pdb
+D:\UserData\lenovo\Desktop\Parallel.Invoke\Parallel.Invoke\obj\Debug\Parallel.Invoke.csprojResolveAssemblyReference.cache
+D:\UserData\lenovo\Desktop\Parallel.Invoke\Parallel.Invoke\obj\Debug\Parallel.Invoke.exe
+D:\UserData\lenovo\Desktop\Parallel.Invoke\Parallel.Invoke\obj\Debug\Parallel.Invoke.pdb
+H:\C#\自悟\研究\多线程\Parallel.Invoke\Parallel.Invoke\bin\Debug\Parallel.Invoke.exe.config
+H:\C#\自悟\研究\多线程\Parallel.Invoke\Parallel.Invoke\obj\Debug\Parallel.Invoke.exe
+H:\C#\自悟\研究\多线程\Parallel.Invoke\Parallel.Invoke\obj\Debug\Parallel.Invoke.pdb

@@ -1,0 +1,14 @@
+//对象的比较.1重载运算符
+            //对象的比较.2 IComparable 与 IComparer 接口
+            //IComparable 在要比较的对象的类中实现，可以比较该对象和另外一个对象
+            //IComparer 在一个单独的类中实现，可以比较任意两个对象
+            //详细请看书250
+            if (person1.CompareTo(person2) == 0)
+            {
+                Console.WriteLine("Same Age!");
+            }
+            else if (person1.CompareTo(person2) > 0)
+            {
+                Console.WriteLine("Person 1 is older");
+            }
+            else { Console.WriteLine("Person 1 is younger"); }

@@ -1,0 +1,89 @@
+应用程序配置文件（App.config）是标准的XML文件，
+
+XML标记和属性是区分大小写的。
+
+它是可以按需要更改的，开发人员可以使用配置文件来更改设置，而不必重编译应用程序
+
+声明 ： <?xml version='1.0'...?> eg:<?xml version="1.0" encoding="utf-8" ?>  其中 version 是版本的意思
+
+实体 ： <!Entity....>
+
+元素 ： <book>....</book>
+
+属性 ：<book title="..."/>
+
+注释 ：<!--some comments-->
+
+特殊字符：
+
+& —— &amp;	< —— &lt;	> —— &gt;	" —— &quot	' —— &apos;
+
+其中 在声明的语句下面的语句(第二条语句) 往往代表 根节点的语句 XML文档必须有一个元素是其他所有元素的根节点
+
+XML 命名规则
+XML 元素必须遵循以下命名规则：
+
+名称可以含字母、数字以及其他的字符 
+名称不能以数字或者标点符号开始 
+名称不能以字符 “xml”（或者 XML、Xml）开始 
+名称不能包含空格 
+可使用任何名称，没有保留的字词。
+
+XML的处理方式
+
+·DOM ：文档对象模型 ( Document Object Model )
+
+·SAX ：XML解析的简单API( Simple API for XML )
+
+.NET 提供了XML支持：System.XML名称控件
+
+
+--------------------------------------------------------------------------------------------------------
+常用的XML类
+
+·XmlDocument
+	.LoadXml()	.DocumentElement
+
+·XmlNode 的属性
+	.ChlidNodes	.HasChildNodes	.FirstChildNode .NodeType
+	.InnerXml	.ImmerText	.OutterXml	.Value
+
+·子类 XmlDocument , XmlElement
+	.XmlAttribute	.XmlEntity
+
+XmlNode的操作
+·增加:AppendChild	PrependChild	InsertBefore	InsertAfter
+·删除:RemoveChild	ReplaceChild	RemoveAll
+
+使用 XmlTextReader 及 Writer:
+
+·XmlTextReader
+	·对XML 数据进行快速，非缓冲，只进访问的读取器
+	·While(reader.Read())
+	·switch(reader.NodeType)
+	·使用reader.Name 及 .Value
+
+·XmlTextWriter
+	·WriteStartElement
+	·WriteAttributeString
+	·WriteEndElement 等
+
+--------------------------------------------------------------------------------------------------------
+
+
+
+
+
+appSettings 配置节 为整个程序的配置，如果是对当前用户的配置，请使用userSettings配置节，其格式与以下配置书写要求一样。
+<!--进销存管理系统初始化需要的参数-->
+	<appSettings>
+		<add key="userName" value=""/>
+		<add key="Sex" value=""/>
+		<add key="Age" value=""/>
+		<add key="Dept" value=""/>
+		<add key="No" value=""/>
+	</appSettings>
+
+在预定义的appSettings节(注意大小写)，有很多的元素，这些元素名称 都是"add"，有两个属性分别是"key"和"value"
+
+System.Configuration.ConfigurationManager.Appsettings["Key"] 来对 key="Key"的<add>元素的value属性进行访问

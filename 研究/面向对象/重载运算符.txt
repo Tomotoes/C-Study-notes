@@ -1,0 +1,61 @@
+public class Dog
+    {
+        private string Name;
+        public int Age;
+
+        public string Name1
+        {
+            get { return Name; }
+            set { Name = value; }
+        }
+
+        public Dog(string name)
+        {
+            Name = name;
+            Age = 0;
+        }
+
+        public void Speak()
+        {
+            Console.WriteLine(Name+" is wangwang!");
+        } 
+
+        public static Dog operator ++ (Dog dog)
+        {
+            dog.Age++;
+            return dog;
+        }
+        public void ShowAge()
+        {
+            Console.WriteLine(Name + "'s Age is " + Age);
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+                /*
+                 * 什么是重载运算符？
+                 * 利用现有的某种运算符，针对自定义类或者结构，定义某种运算操作
+                 * 注意：不能创造新的运算符
+                 * 
+                 * 为什么需要重载运算符？
+                 * 利用现有运算符，简化自定义类型的操作。
+                 * 最好是：该运算符和该操作，具有一定相关性。
+                 * 
+                 * 语法细节：
+                 * public static Dog operator + (Dog male,Dog famale) { ... return new Dog(); }
+                 * 修饰符 static 返回类型一般为类名 operator 重载符号（参数）
+                 * 
+                 * 哪些运算符可以重载？
+                 * 一元运算符：+，-，！，~，++，--，true，false               操作数必须是类或结构
+                 * 二元运算符：+，-，*，/，%，&，！，^，<<,>>,==,!=,>,<,>=,<= 两个操作数必须有一个是类或结构
+                 * 不能重载：=，&&，||，[],()等
+                 */
+            Dog dog = new Dog("Jack");
+            dog.ShowAge();
+            dog.Age++;
+            dog.ShowAge();
+        }
+    }

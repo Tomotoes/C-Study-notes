@@ -1,0 +1,58 @@
+class Dog
+    {
+        public delegate void Ac();
+        //修饰符 delegate 函数类型 委托名()；
+        static public EventHandler ac;
+        //static public Ac ac;
+        //修饰符 event 委托名/EventHandler 事件名；
+        //ac是一个成员，并且会被隐式自动初始化为null
+        public string Name;
+        public Dog(string name)
+        {
+            Name = name;
+            if (ac != null)
+            {
+                ac();
+            }
+        }
+    }
+    class Client
+    {
+        public void WantDog()
+        {
+            Console.WriteLine("New Dog!");
+        }
+    }
+    class Program
+    { 
+        static void Main(string[] args)
+        {
+            /* 事件的发布者和订阅者
+             * 通知某种事件发生的，就是发布者      我发布了微博
+             * 对某种事情关注的，就是订阅者        我关注了微博
+             * 
+             * 事件的触发和注册
+             * 事件发生时，会通知所有关注该事件的订阅者
+             * 想 在事件发生时被通知，必须注册以表示关注
+             * 
+             * 事件解释
+             * 事件发生时，通知订阅者，就是调用订阅者的注册函数。
+             * 注册，就是告诉发布者调用哪一个注册函数
+             * 
+             * 事件==委托链,可以理解成一种封装的受限制的委托
+             * 
+             * 事件订阅
+             * 事件名+=方法  事件名-=方法
+             * 方法可以是，实例方法，静态方法，匿名方法，Lambda表达式
+             *  
+             * 事件触发
+             * if(事件名!=null){ 事件名(); }
+             */
+            Client c1 = new Client();
+            Client c2 = new Client();
+           
+            Dog.ac +=c1.WantDog;  //就相当于普通变量的 操作 ，并且无需()
+            Dog.ac += c2.WantDog;
+            Dog dog = new Dog("小A");//为什么实例化时，就会调用事件呢。
+        }
+    }

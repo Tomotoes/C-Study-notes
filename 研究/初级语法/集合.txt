@@ -1,0 +1,24 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+            List<Person> A=new List<Person>();
+            Dictionary<int ,string> B = new Dictionary<int,string>();
+            B[0] = "AAA";
+            B[1] = "asd";
+            B.Add(123, "ABC");
+            Console.WriteLine(B[123]);
+            Console.WriteLine(B[1]);
+            Dictionary<int, Dog> dic = new Dictionary<int, Dog>();
+            dic.Add(1, new Dog("小A"));
+           
+            dic[1].PrintName();
+            //栈：push，pop，peek获取栈顶元素
+            //队列：Dequeue出队，Enqueue进队
+            Queue<Dog> Q = new Queue<Dog>();
+            Q.Enqueue(new Dog("AAA"));
+            Dog E = Q.Dequeue();
+            E.PrintName();
+
+        }
+    }

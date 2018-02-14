@@ -1,0 +1,34 @@
+我们都知道所有的类型都可以划分为两种:值类型和引用类型。
+
+结构体的数据类型是值类型
+类的数据类型是引用类型
+
+值类型存储在栈里。
+修改任何一个值，都不会影响另一个值。
+由于值类型要求一个内存副本，因此不要让它们消耗太多内存。
+
+引用类型存储在堆里。
+除此之外，利用其中一个变量更改数据也会改变另一个变量引用的数据。
+
+它们的区别来源于它们的复制方式：
+
+值类型的数据 总是被值复制。
+引用类型的数据总是被引用复制。
+下面的例子很好说明了这一点：
+ static void Main(string[] args)
+  {
+            MyStruct S = new MyStruct();
+            MyStruct R = S;
+            S.Struct = 5;
+            R.Struct = S.Struct;
+            R.Struct = 6;
+            Console.WriteLine(S.Struct);//输出 5
+
+            Program A = new Program();
+            Program B = A;
+            A.Class = 5;
+            B.Class = 6;
+            Console.WriteLine(A.Class);//输出 6
+   }
+
+

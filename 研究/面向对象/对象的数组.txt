@@ -1,0 +1,29 @@
+意义：建个容器对 类的对象进行保存，便于统一性操作
+
+下文给出数组保存的方式，当然 也可以不是数组，也可以是其他链表之类的容器。
+
+
+ Pet[] pets = new Pet[]
+            {
+                new Pet("Dog"),
+                new Pet("Cat")
+            };
+            foreach (Pet a in pets)
+            {
+                a.Speak();
+            }
+
+            Pet[] pett = new Pet[]
+            {
+                new Dog("Dog"),
+                new Cat("Cat")
+            };
+
+            foreach (Pet a in pett)
+            {
+                a.Speak();
+            }
+	    for (int i = 0; i < pett.Length; ++i)
+            {
+                pett[i].Speak();
+            }

@@ -1,0 +1,10 @@
+线程控制里，两个线程都要访问同一个对象 ，这个时候就会带来一系列问题，就像三个线程一个对象一个方法 那样。
+
+ lock(对象或表达式){...语句...}
+就像是商场中的试衣间，只有其中的人出来 其他人才能进去
+
+lock本质：
+	System.Threading.Monitor.Enter(对象或表达式);
+	try{...}
+	finally{System.Threading.Monitor.Exit(对象或表达式);}
+		

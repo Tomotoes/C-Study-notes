@@ -1,0 +1,8 @@
+obj\Debug\TabControl.exe
+obj\Debug\TabControl.pdb
+bin\Debug\TabControl.exe
+bin\Debug\TabControl.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TabControl.Form1.resources
+obj\Debug\TabControl.Properties.Resources.resources
+obj\Debug\TabControl.csproj.GenerateResource.Cache

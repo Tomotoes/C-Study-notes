@@ -1,0 +1,11 @@
+普通委托：
+public delegate int Mydelegate(int op1,int op2);
+
+泛型委托：
+public delegate T1 Mydelegate<T1,T2>(T2 op1,T2 op2)where T1:T2;
+
+  static void Main(string[] args)
+        {
+            Func<int, string> gw1 = p => p + 10 + "asdsadsad";
+            Console.WriteLine(gw1(20));
+        }

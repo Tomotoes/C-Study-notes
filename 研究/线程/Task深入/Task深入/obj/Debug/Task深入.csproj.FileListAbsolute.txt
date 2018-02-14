@@ -1,0 +1,9 @@
+H:\C#\自悟\研究\线程\Task深入\Task深入\bin\Debug\Task深入.exe.config
+H:\C#\自悟\研究\线程\Task深入\Task深入\bin\Debug\Task深入.exe
+H:\C#\自悟\研究\线程\Task深入\Task深入\bin\Debug\Task深入.pdb
+H:\C#\自悟\研究\线程\Task深入\Task深入\obj\Debug\Task深入.csprojResolveAssemblyReference.cache
+H:\C#\自悟\研究\线程\Task深入\Task深入\obj\Debug\Task深入.Form1.resources
+H:\C#\自悟\研究\线程\Task深入\Task深入\obj\Debug\Task深入.Properties.Resources.resources
+H:\C#\自悟\研究\线程\Task深入\Task深入\obj\Debug\Task深入.csproj.GenerateResource.Cache
+H:\C#\自悟\研究\线程\Task深入\Task深入\obj\Debug\Task深入.exe
+H:\C#\自悟\研究\线程\Task深入\Task深入\obj\Debug\Task深入.pdb

@@ -1,0 +1,9 @@
+D:\UserData\lenovo\Desktop\线程\线程\bin\Debug\线程.exe.config
+D:\UserData\lenovo\Desktop\线程\线程\bin\Debug\线程.exe
+D:\UserData\lenovo\Desktop\线程\线程\bin\Debug\线程.pdb
+D:\UserData\lenovo\Desktop\线程\线程\obj\Debug\线程.csprojResolveAssemblyReference.cache
+D:\UserData\lenovo\Desktop\线程\线程\obj\Debug\线程.exe
+D:\UserData\lenovo\Desktop\线程\线程\obj\Debug\线程.pdb
+H:\C#\自悟\研究\多线程\线程\线程\bin\Debug\线程.exe.config
+H:\C#\自悟\研究\多线程\线程\线程\obj\Debug\线程.exe
+H:\C#\自悟\研究\多线程\线程\线程\obj\Debug\线程.pdb

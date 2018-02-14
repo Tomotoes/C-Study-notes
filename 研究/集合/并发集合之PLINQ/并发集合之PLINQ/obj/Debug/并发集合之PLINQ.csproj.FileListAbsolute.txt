@@ -1,0 +1,6 @@
+G:\C#\自悟\研究\集合\并发集合之PLINQ\并发集合之PLINQ\bin\Debug\并发集合之PLINQ.exe.config
+G:\C#\自悟\研究\集合\并发集合之PLINQ\并发集合之PLINQ\bin\Debug\并发集合之PLINQ.exe
+G:\C#\自悟\研究\集合\并发集合之PLINQ\并发集合之PLINQ\bin\Debug\并发集合之PLINQ.pdb
+G:\C#\自悟\研究\集合\并发集合之PLINQ\并发集合之PLINQ\obj\Debug\并发集合之PLINQ.csprojResolveAssemblyReference.cache
+G:\C#\自悟\研究\集合\并发集合之PLINQ\并发集合之PLINQ\obj\Debug\并发集合之PLINQ.exe
+G:\C#\自悟\研究\集合\并发集合之PLINQ\并发集合之PLINQ\obj\Debug\并发集合之PLINQ.pdb

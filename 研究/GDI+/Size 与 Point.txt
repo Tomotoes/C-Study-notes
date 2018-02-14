@@ -1,0 +1,6 @@
+嵌套使用：Point F = new Point(new Size(10, 20));
+	
+	  Point F = new Point(10, 20);
+
+
+有很大的好处是：两个类都支持 很多重载运算符！

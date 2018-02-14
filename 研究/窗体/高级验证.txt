@@ -1,0 +1,3 @@
+RequiredFieldValidator 必需项验证控件
+
+CompareValidator 比较验证控件

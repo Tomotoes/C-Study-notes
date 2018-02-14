@@ -1,0 +1,9 @@
+D:\UserData\lenovo\Desktop\Task\Task\bin\Debug\Task.exe.config
+D:\UserData\lenovo\Desktop\Task\Task\bin\Debug\Task.exe
+D:\UserData\lenovo\Desktop\Task\Task\bin\Debug\Task.pdb
+D:\UserData\lenovo\Desktop\Task\Task\obj\Debug\Task.csprojResolveAssemblyReference.cache
+D:\UserData\lenovo\Desktop\Task\Task\obj\Debug\Task.exe
+D:\UserData\lenovo\Desktop\Task\Task\obj\Debug\Task.pdb
+H:\C#\自悟\研究\多线程\Task\Task\bin\Debug\Task.exe.config
+H:\C#\自悟\研究\多线程\Task\Task\obj\Debug\Task.exe
+H:\C#\自悟\研究\多线程\Task\Task\obj\Debug\Task.pdb

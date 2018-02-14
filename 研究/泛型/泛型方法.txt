@@ -1,0 +1,73 @@
+如果所在的类也是泛型的，就必须为泛型方法类型使用不同的标识符。
+必须重命名方法或类使用的类型T
+下面的代码不会编译：
+public class Defaulter<T>
+{
+	public T GetDefault<T>()=>default(T);
+}
+
+泛型方法参数可以采用与类相同的方式使用约束，
+在此可以使用任意的类类型参数
+例如：
+public class Defaulter<T1>
+{
+	public T2 GetDefault<T2> 
+		where T2:T1
+	{ ...	... }
+}
+其中，为方法提供的类型T2必须与给类提供的T1相同，或者继承于T1
+这是约束泛型方法常用方式
+
+public class Dog
+    {
+        private string Name;
+
+        public string Name1
+        {
+            get { return Name; }
+            set { Name = value; }
+        }
+        public Dog(string name)
+        {
+            Name = name;
+        }
+        public void PrintName()
+        {
+            Console.WriteLine("Dog's Name is " + Name);
+        }
+        public void IsHappy<T>(T target)
+        {
+            Console.WriteLine("Happy: " +target.ToString());
+        }
+    }
+    public class Person
+    {
+        public string me;
+        public Person(string name)
+        {
+            me = name;
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+             * 什么是泛型方法？
+             * 泛型方法就是方法的模型，给定具体的类型，就可以实例化一个操作该类型的具体方法。
+             * 注意：普通类也可以有泛型方法，相互独立
+             * 
+             * 语法展示：
+             *  class Dog
+                {
+                    void DoglsHappy<T>(T target)
+                    { ... }
+                }
+             */
+            Dog dog = new Dog("小A");
+            
+            dog.IsHappy<Person>(new Person("LL"));
+
+            dog.IsHappy<int>(3);
+        }
+    }

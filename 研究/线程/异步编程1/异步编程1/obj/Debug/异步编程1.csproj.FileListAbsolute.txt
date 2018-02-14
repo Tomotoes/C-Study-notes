@@ -1,0 +1,9 @@
+H:\C#\自悟\研究\线程\异步编程1\异步编程1\bin\Debug\异步编程1.exe.config
+H:\C#\自悟\研究\线程\异步编程1\异步编程1\bin\Debug\异步编程1.exe
+H:\C#\自悟\研究\线程\异步编程1\异步编程1\bin\Debug\异步编程1.pdb
+H:\C#\自悟\研究\线程\异步编程1\异步编程1\obj\Debug\异步编程1.csprojResolveAssemblyReference.cache
+H:\C#\自悟\研究\线程\异步编程1\异步编程1\obj\Debug\异步编程1.Form1.resources
+H:\C#\自悟\研究\线程\异步编程1\异步编程1\obj\Debug\异步编程1.Properties.Resources.resources
+H:\C#\自悟\研究\线程\异步编程1\异步编程1\obj\Debug\异步编程1.csproj.GenerateResource.Cache
+H:\C#\自悟\研究\线程\异步编程1\异步编程1\obj\Debug\异步编程1.exe
+H:\C#\自悟\研究\线程\异步编程1\异步编程1\obj\Debug\异步编程1.pdb

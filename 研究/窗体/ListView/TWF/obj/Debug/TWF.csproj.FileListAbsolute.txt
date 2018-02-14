@@ -1,0 +1,22 @@
+c:\users\simon\documents\visual studio 2017\Projects\TWF\TWF\bin\Debug\TWF.exe.config
+c:\users\simon\documents\visual studio 2017\Projects\TWF\TWF\bin\Debug\TWF.exe
+c:\users\simon\documents\visual studio 2017\Projects\TWF\TWF\bin\Debug\TWF.pdb
+c:\users\simon\documents\visual studio 2017\Projects\TWF\TWF\obj\Debug\TWF.csprojResolveAssemblyReference.cache
+c:\users\simon\documents\visual studio 2017\Projects\TWF\TWF\obj\Debug\TWF.Properties.Resources.resources
+c:\users\simon\documents\visual studio 2017\Projects\TWF\TWF\obj\Debug\TWF.csproj.GenerateResource.Cache
+c:\users\simon\documents\visual studio 2017\Projects\TWF\TWF\obj\Debug\TWF.exe
+c:\users\simon\documents\visual studio 2017\Projects\TWF\TWF\obj\Debug\TWF.pdb
+C:\Users\Simon\documents\visual studio 2017\Projects\TWF\TWF\bin\Debug\Icons\Small.jpg
+C:\Users\Simon\documents\visual studio 2017\Projects\TWF\TWF\bin\Debug\Icons\Large.jpg
+C:\Users\Simon\documents\visual studio 2017\Projects\TWF\TWF\obj\Debug\TWF.FormListView.resources
+G:\C#\自悟\研究\窗体控件\ListView\TWF\bin\Debug\Icons\Small.jpg
+G:\C#\自悟\研究\窗体控件\ListView\TWF\bin\Debug\Icons\Large.jpg
+G:\C#\自悟\研究\窗体控件\ListView\TWF\bin\Debug\TWF.exe.config
+G:\C#\自悟\研究\窗体控件\ListView\TWF\bin\Debug\TWF.exe
+G:\C#\自悟\研究\窗体控件\ListView\TWF\bin\Debug\TWF.pdb
+G:\C#\自悟\研究\窗体控件\ListView\TWF\obj\Debug\TWF.csprojResolveAssemblyReference.cache
+G:\C#\自悟\研究\窗体控件\ListView\TWF\obj\Debug\TWF.FormListView.resources
+G:\C#\自悟\研究\窗体控件\ListView\TWF\obj\Debug\TWF.Properties.Resources.resources
+G:\C#\自悟\研究\窗体控件\ListView\TWF\obj\Debug\TWF.csproj.GenerateResource.Cache
+G:\C#\自悟\研究\窗体控件\ListView\TWF\obj\Debug\TWF.exe
+G:\C#\自悟\研究\窗体控件\ListView\TWF\obj\Debug\TWF.pdb

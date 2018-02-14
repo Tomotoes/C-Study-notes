@@ -1,0 +1,27 @@
+1.typeof 运算符
+  ·typeof(System.Console)
+
+2.对象.GetType()
+  ·Type.GetType(string 类名)
+
+ class Program
+    {
+        static void Main(string[] args)
+        {
+            int x=1;
+            double d=1.0;
+            Type[] T ={
+                         typeof(int),
+                         typeof(System.Int32),
+                         typeof(string),
+                         typeof(double[]),
+                         x.GetType(),
+                         (x+d).GetType(),
+                         Type.GetType("System.Console")
+                     };
+            for (int i = 0; i < T.Length; ++i)
+            {
+                Console.WriteLine(T[i]);
+            }
+        }
+    }

@@ -1,0 +1,12 @@
+ static void Main(string[] args)
+        {
+            int A = 45;//值类型，存储在栈里面，此时 A 和 B独立 分别等于45
+            int B = A;
+            string S = "abcd";//引用类型，存储在堆里面，此时 R 和 S 共地址，地址上的值为“abcd”
+            string R = S;
+            R += 'e';
+
+            Console.WriteLine(sizeof(int));
+            Console.WriteLine(System.Runtime.InteropServices.Marshal.SizeOf(A));
+            //需要注意的的是 求字节只能用于 值类型
+        }

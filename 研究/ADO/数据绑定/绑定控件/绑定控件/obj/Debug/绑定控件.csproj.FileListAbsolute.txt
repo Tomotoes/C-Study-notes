@@ -1,0 +1,1 @@
+H:\C#\自悟\研究\ADO.Net\数据绑定\绑定控件\绑定控件\bin\Debug\绑定控件.exe.config

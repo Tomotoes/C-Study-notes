@@ -1,0 +1,6 @@
+ da.MissingSchemaAction = MissingSchemaAction.AddWithKey;
+//在加载数据集的时候,同时也加载主键,目的是为了能够按照主键来查找到这一行
+
+  DataRow findrow = ds1.Tables[0].Rows.Find(Convert.ToInt32(textBox4.Text));
+//在调用Find方法进行查找时,按照学号进行查找,并且,返回
+  findrow.Delete();//删除当前所找到的行

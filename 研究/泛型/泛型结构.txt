@@ -1,0 +1,8 @@
+前几章说过，结构实际上与类相同，而且结构是值类型，不是引用类型。
+所以，可以用 与泛型类相同的方式创建泛型结构：
+
+public struct Mystruct<T1,T2>
+{
+	public T1 item1;
+	public T2 item2;
+}

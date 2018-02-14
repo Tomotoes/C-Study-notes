@@ -1,0 +1,15 @@
+C#4.0 新特性，可选参数
+支持方法时 将参量值赋给参数，以后调用方法时就不必每一个参数都指定了！
+例子：
+ public void OutPut(int x=4, int y=0)
+{
+    Console.WriteLine(y);
+}
+static void Main(string[] args)
+{
+    Program p = new Program();
+    p.OutPut(7);                             输出：0
+    p.OutPut(7,8);                          输出：8
+    p.OutPut();                               输出：0
+}
+是不是很方便呢。

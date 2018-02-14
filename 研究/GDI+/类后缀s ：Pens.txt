@@ -1,0 +1,21 @@
+使用Pens类  直接用系统定义好的 Pen对象
+
+因为 Pen的类需要明确两个参数 ： Color，Size
+
+而Pens 类 的Size 不用我们考虑  系统默认的是 1号字体。
+
+所以 我们只需考虑Color
+
+使用格式：Pens.Red
+
+
+
+目前为止 还知道 Brushes类
+
+默认的是 实心画刷
+
+使用格式和 Pens 相似
+
+Brush A = Brushes.Red;
+
+Brush B = new SolidBrush(Color.FromArgb(23));
