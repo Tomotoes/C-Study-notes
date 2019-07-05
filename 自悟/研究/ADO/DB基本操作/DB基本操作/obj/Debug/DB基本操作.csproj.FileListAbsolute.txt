@@ -1,0 +1,11 @@
+c:\users\lenovo\documents\visual studio 2013\Projects\DB基本操作\DB基本操作\bin\Debug\DB基本操作.exe.config
+c:\users\lenovo\documents\visual studio 2013\Projects\DB基本操作\DB基本操作\bin\Debug\DB基本操作.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\DB基本操作\DB基本操作\bin\Debug\DB基本操作.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\DB基本操作\DB基本操作\obj\Debug\DB基本操作.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2013\Projects\DB基本操作\DB基本操作\obj\Debug\DB基本操作.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2013\Projects\DB基本操作\DB基本操作\obj\Debug\DB基本操作.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\DB基本操作\DB基本操作\obj\Debug\DB基本操作.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\DB基本操作\DB基本操作\obj\Debug\DB基本操作.DB基本操作.resources
+H:\C#\自悟\研究\ADO.Net\DB基本操作\DB基本操作\bin\Debug\DB基本操作.exe.config
+H:\C#\自悟\研究\ADO.Net\DB基本操作\DB基本操作\obj\Debug\DB基本操作.exe
+H:\C#\自悟\研究\ADO.Net\DB基本操作\DB基本操作\obj\Debug\DB基本操作.pdb

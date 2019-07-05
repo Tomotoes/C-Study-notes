@@ -1,0 +1,11 @@
+ unchecked
+            {
+                int a = int.MaxValue;
+                a++;
+                Console.WriteLine(a);
+            }
+            /*
+             * 事实证明 checked 在执行后会输出错误信息，调试中也会显示
+             * 而uncheck 毫无作用
+             * 所以说 在一些敏感操作中可以使用checked
+             */

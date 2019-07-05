@@ -1,0 +1,6 @@
+H:\C#\自悟\研究\初级语法篇\函数传递\函数传递\bin\Debug\函数传递.exe.config
+H:\C#\自悟\研究\初级语法篇\函数传递\函数传递\bin\Debug\函数传递.exe
+H:\C#\自悟\研究\初级语法篇\函数传递\函数传递\bin\Debug\函数传递.pdb
+H:\C#\自悟\研究\初级语法篇\函数传递\函数传递\obj\Debug\函数传递.csprojResolveAssemblyReference.cache
+H:\C#\自悟\研究\初级语法篇\函数传递\函数传递\obj\Debug\函数传递.exe
+H:\C#\自悟\研究\初级语法篇\函数传递\函数传递\obj\Debug\函数传递.pdb

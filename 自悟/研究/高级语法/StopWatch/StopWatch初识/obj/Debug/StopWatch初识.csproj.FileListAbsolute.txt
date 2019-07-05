@@ -1,0 +1,5 @@
+H:\C#\自悟\研究\高级语法\StopWatch初识\StopWatch初识\bin\Debug\StopWatch初识.exe.config
+H:\C#\自悟\研究\高级语法\StopWatch初识\StopWatch初识\bin\Debug\StopWatch初识.exe
+H:\C#\自悟\研究\高级语法\StopWatch初识\StopWatch初识\bin\Debug\StopWatch初识.pdb
+H:\C#\自悟\研究\高级语法\StopWatch初识\StopWatch初识\obj\Debug\StopWatch初识.exe
+H:\C#\自悟\研究\高级语法\StopWatch初识\StopWatch初识\obj\Debug\StopWatch初识.pdb

@@ -1,0 +1,13 @@
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
+D:\UserData\lenovo\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
+D:\UserData\lenovo\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe
+D:\UserData\lenovo\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.pdb
+D:\UserData\lenovo\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csprojResolveAssemblyReference.cache
+D:\UserData\lenovo\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form1.resources
+D:\UserData\lenovo\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
+D:\UserData\lenovo\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
+D:\UserData\lenovo\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
+D:\UserData\lenovo\Desktop\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
+H:\C#\自悟\Work\第四次作业\字符串周末作业\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
+H:\C#\自悟\Work\第四次作业\字符串周末作业\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
+H:\C#\自悟\Work\第四次作业\字符串周末作业\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb

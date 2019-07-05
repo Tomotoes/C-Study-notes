@@ -1,0 +1,15 @@
+H:\C#\自悟\研究\Unity\Unity\bin\Debug\Unity.exe.config
+H:\C#\自悟\研究\Unity\Unity\bin\Debug\Unity.exe
+H:\C#\自悟\研究\Unity\Unity\bin\Debug\Unity.pdb
+H:\C#\自悟\研究\Unity\Unity\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+H:\C#\自悟\研究\Unity\Unity\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+H:\C#\自悟\研究\Unity\Unity\bin\Debug\Microsoft.Practices.Unity.dll
+H:\C#\自悟\研究\Unity\Unity\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+H:\C#\自悟\研究\Unity\Unity\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+H:\C#\自悟\研究\Unity\Unity\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+H:\C#\自悟\研究\Unity\Unity\bin\Debug\Microsoft.Practices.Unity.xml
+H:\C#\自悟\研究\Unity\Unity\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+H:\C#\自悟\研究\Unity\Unity\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+H:\C#\自悟\研究\Unity\Unity\obj\Debug\Unity.csprojResolveAssemblyReference.cache
+H:\C#\自悟\研究\Unity\Unity\obj\Debug\Unity.exe
+H:\C#\自悟\研究\Unity\Unity\obj\Debug\Unity.pdb

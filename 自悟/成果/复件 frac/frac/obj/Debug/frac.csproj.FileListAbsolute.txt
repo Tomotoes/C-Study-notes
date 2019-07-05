@@ -1,0 +1,26 @@
+D:\My Documents\Visual Studio 2008\Projects\frac\frac\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2008\Projects\frac\frac\obj\Debug\frac.Properties.Resources.resources
+D:\My Documents\Visual Studio 2008\Projects\frac\frac\obj\Debug\frac.csproj.GenerateResource.Cache
+D:\My Documents\Visual Studio 2008\Projects\frac\frac\bin\Debug\frac.exe
+D:\My Documents\Visual Studio 2008\Projects\frac\frac\bin\Debug\frac.pdb
+D:\My Documents\Visual Studio 2008\Projects\frac\frac\obj\Debug\frac.exe
+D:\My Documents\Visual Studio 2008\Projects\frac\frac\obj\Debug\frac.pdb
+D:\My Documents\Visual Studio 2008\Projects\frac\frac\obj\Debug\frac.screen.resources
+D:\My Documents\Visual Studio 2008\Projects\复件 frac\frac\obj\Debug\frac.exe
+D:\My Documents\Visual Studio 2008\Projects\复件 frac\frac\obj\Debug\frac.pdb
+D:\My Documents\Visual Studio 2008\Projects\复件 frac\frac\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2008\Projects\复件 frac\frac\obj\Debug\frac.screen.resources
+D:\My Documents\Visual Studio 2008\Projects\复件 frac\frac\obj\Debug\frac.Properties.Resources.resources
+D:\My Documents\Visual Studio 2008\Projects\复件 frac\frac\obj\Debug\frac.csproj.GenerateResource.Cache
+D:\My Documents\Visual Studio 2008\Projects\复件 frac\frac\bin\Debug\frac.exe
+D:\My Documents\Visual Studio 2008\Projects\复件 frac\frac\bin\Debug\frac.pdb
+D:\UserData\lenovo\Desktop\复件 frac\frac\obj\Debug\frac.exe
+D:\UserData\lenovo\Desktop\复件 frac\frac\obj\Debug\frac.pdb
+D:\UserData\lenovo\Desktop\复件 frac\frac\bin\Debug\frac.exe
+D:\UserData\lenovo\Desktop\复件 frac\frac\bin\Debug\frac.pdb
+D:\UserData\lenovo\Desktop\复件 frac\frac\obj\Debug\frac.csprojResolveAssemblyReference.cache
+D:\UserData\lenovo\Desktop\复件 frac\frac\obj\Debug\frac.screen.resources
+D:\UserData\lenovo\Desktop\复件 frac\frac\obj\Debug\frac.Properties.Resources.resources
+D:\UserData\lenovo\Desktop\复件 frac\frac\obj\Debug\frac.csproj.GenerateResource.Cache
+H:\C#\自悟\成果\复件 frac\frac\obj\Debug\frac.exe
+H:\C#\自悟\成果\复件 frac\frac\obj\Debug\frac.pdb

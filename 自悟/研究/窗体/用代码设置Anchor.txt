@@ -1,0 +1,3 @@
+RichTextBox A = new RichTextBox();
+            A.Anchor = AnchorStyles.Top | AnchorStyles.Right | AnchorStyles.Bottom | AnchorStyles.Left;
+            this.Controls.Add(A);

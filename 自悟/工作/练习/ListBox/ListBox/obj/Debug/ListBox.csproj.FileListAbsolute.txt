@@ -1,0 +1,9 @@
+H:\C#\自悟\工作\练习\ListBox\ListBox\bin\Debug\ListBox.exe.config
+H:\C#\自悟\工作\练习\ListBox\ListBox\bin\Debug\ListBox.exe
+H:\C#\自悟\工作\练习\ListBox\ListBox\bin\Debug\ListBox.pdb
+H:\C#\自悟\工作\练习\ListBox\ListBox\obj\Debug\ListBox.csprojResolveAssemblyReference.cache
+H:\C#\自悟\工作\练习\ListBox\ListBox\obj\Debug\ListBox.Form1.resources
+H:\C#\自悟\工作\练习\ListBox\ListBox\obj\Debug\ListBox.Properties.Resources.resources
+H:\C#\自悟\工作\练习\ListBox\ListBox\obj\Debug\ListBox.csproj.GenerateResource.Cache
+H:\C#\自悟\工作\练习\ListBox\ListBox\obj\Debug\ListBox.exe
+H:\C#\自悟\工作\练习\ListBox\ListBox\obj\Debug\ListBox.pdb

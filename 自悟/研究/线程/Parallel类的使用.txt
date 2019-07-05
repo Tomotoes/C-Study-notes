@@ -1,0 +1,7 @@
+·Parallel.Invoke(Action[]actions);并行执行多个任务，直到完成
+
+·Parallel.For(0,100,i=>{...})
+
+·Parallel.ForEach(list,item=>{...})//针对集合 对每一个项执行一个任务
+
+Parallel 把Task都隐藏了起来

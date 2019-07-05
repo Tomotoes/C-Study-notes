@@ -1,0 +1,8 @@
+D:\UserData\lenovo\Desktop\线程安全的集合\线程安全的集合\bin\Debug\线程安全的集合.exe.config
+D:\UserData\lenovo\Desktop\线程安全的集合\线程安全的集合\bin\Debug\线程安全的集合.exe
+D:\UserData\lenovo\Desktop\线程安全的集合\线程安全的集合\bin\Debug\线程安全的集合.pdb
+D:\UserData\lenovo\Desktop\线程安全的集合\线程安全的集合\obj\Debug\线程安全的集合.exe
+D:\UserData\lenovo\Desktop\线程安全的集合\线程安全的集合\obj\Debug\线程安全的集合.pdb
+H:\C#\自悟\研究\多线程\线程安全的集合\线程安全的集合\bin\Debug\线程安全的集合.exe.config
+H:\C#\自悟\研究\多线程\线程安全的集合\线程安全的集合\obj\Debug\线程安全的集合.exe
+H:\C#\自悟\研究\多线程\线程安全的集合\线程安全的集合\obj\Debug\线程安全的集合.pdb

@@ -1,0 +1,9 @@
+H:\C#\自悟\工作\练习\更改字体\更改字体\bin\Debug\更改字体.exe.config
+H:\C#\自悟\工作\练习\更改字体\更改字体\bin\Debug\更改字体.exe
+H:\C#\自悟\工作\练习\更改字体\更改字体\bin\Debug\更改字体.pdb
+H:\C#\自悟\工作\练习\更改字体\更改字体\obj\Debug\更改字体.csprojResolveAssemblyReference.cache
+H:\C#\自悟\工作\练习\更改字体\更改字体\obj\Debug\更改字体.Form1.resources
+H:\C#\自悟\工作\练习\更改字体\更改字体\obj\Debug\更改字体.Properties.Resources.resources
+H:\C#\自悟\工作\练习\更改字体\更改字体\obj\Debug\更改字体.csproj.GenerateResource.Cache
+H:\C#\自悟\工作\练习\更改字体\更改字体\obj\Debug\更改字体.exe
+H:\C#\自悟\工作\练习\更改字体\更改字体\obj\Debug\更改字体.pdb

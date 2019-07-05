@@ -1,0 +1,10 @@
+
+	DialogResult D = MessageBox.Show("是否将更改保存到" + FilePath + '?', "记事本", 
+	MessageBoxButtons.YesNoCancel);
+
+	if( D == DialogResult.No){
+		e.Cancel=true;
+	}
+
+
+	

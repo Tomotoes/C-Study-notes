@@ -1,0 +1,5 @@
+int[] Arr = { 1, 2, 3, 4, 5, 6 };
+ Array.ForEach(Arr, a => Console.WriteLine(a));
+
+List<int> E = new List<int>(){ 1, 2, 3, 4, 5 };
+E.ForEach(p => Console.WriteLine(p));

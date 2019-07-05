@@ -1,0 +1,15 @@
+1 通过System.DBNull判断，网上大部分都使用这个方法。
+
+
+DataTable dt;                               //假设字段为name, dt已经保存了数据
+dt.rows[0]["name"] == System.DBNull.Value;  //判断第一行数据的name字段是否为空
+2 通过IsNull判断
+
+
+DataTable dt;                //假设字段为name, dt已经保存了数据
+dt.rows[0].IsNull("name");   //判断第一行数据的name字段是否为空
+3 通过ToString() 判断
+
+
+DataTable dt;                          //假设字段为name, dt已经保存了数据   
+dt.rows[0]["name"].ToString() == "";   //判断第一行数据的name字段是否为空 

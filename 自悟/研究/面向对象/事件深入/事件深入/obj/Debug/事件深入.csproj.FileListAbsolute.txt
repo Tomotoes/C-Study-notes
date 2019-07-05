@@ -1,0 +1,6 @@
+H:\C#\自悟\研究\面向对象\事件深入\事件深入\bin\Debug\事件深入.exe.config
+H:\C#\自悟\研究\面向对象\事件深入\事件深入\bin\Debug\事件深入.exe
+H:\C#\自悟\研究\面向对象\事件深入\事件深入\bin\Debug\事件深入.pdb
+H:\C#\自悟\研究\面向对象\事件深入\事件深入\obj\Debug\事件深入.csprojResolveAssemblyReference.cache
+H:\C#\自悟\研究\面向对象\事件深入\事件深入\obj\Debug\事件深入.exe
+H:\C#\自悟\研究\面向对象\事件深入\事件深入\obj\Debug\事件深入.pdb

@@ -1,0 +1,16 @@
+D:\C#例题\TabControl\TabControl\bin\Debug\TabControl.exe
+D:\C#例题\TabControl\TabControl\bin\Debug\TabControl.pdb
+D:\C#例题\TabControl\TabControl\obj\Debug\ResolveAssemblyReference.cache
+D:\C#例题\TabControl\TabControl\obj\Debug\TabControl.Form1.resources
+D:\C#例题\TabControl\TabControl\obj\Debug\TabControl.Properties.Resources.resources
+D:\C#例题\TabControl\TabControl\obj\Debug\TabControl.csproj.GenerateResource.Cache
+D:\C#例题\TabControl\TabControl\obj\Debug\TabControl.exe
+D:\C#例题\TabControl\TabControl\obj\Debug\TabControl.pdb
+D:\C#电子课件-朱兴宇\2009C#\第五章\TabControl\TabControl\obj\Debug\TabControl.exe
+D:\C#电子课件-朱兴宇\2009C#\第五章\TabControl\TabControl\obj\Debug\TabControl.pdb
+D:\C#电子课件-朱兴宇\2009C#\第五章\TabControl\TabControl\bin\Debug\TabControl.exe
+D:\C#电子课件-朱兴宇\2009C#\第五章\TabControl\TabControl\bin\Debug\TabControl.pdb
+D:\C#电子课件-朱兴宇\2009C#\第五章\TabControl\TabControl\obj\Debug\ResolveAssemblyReference.cache
+D:\C#电子课件-朱兴宇\2009C#\第五章\TabControl\TabControl\obj\Debug\TabControl.Form1.resources
+D:\C#电子课件-朱兴宇\2009C#\第五章\TabControl\TabControl\obj\Debug\TabControl.Properties.Resources.resources
+D:\C#电子课件-朱兴宇\2009C#\第五章\TabControl\TabControl\obj\Debug\TabControl.csproj.GenerateResource.Cache

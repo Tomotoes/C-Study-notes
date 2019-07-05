@@ -1,0 +1,11 @@
+1.Font 字体
+2.控件单击，可拉选
+3.控件，右击有属性提示
+4.解决方案资源管理器，右键可查找文件，bin中有exe文件
+5.Form1.cs中Form.Designer.cs有设计界面的代码
+6.this.BackColor ,背景颜色 Color.FromArgb(255,255,0);
+7.this==当前窗体
+8.setBounds(x,y,z,q) 设置边框
+9.label1.Left 可操作，移动 ，但Label1.Right 只读！不可操作
+10.如果在设计界面时，删除了某些操作，那么设计界面窗口会报错，所以先改窗体再去掉代码吧。
+11.TextChanged：改变文本时，发生的事件。eg：textBox2.Text=textBox1.Text

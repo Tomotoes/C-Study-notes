@@ -1,0 +1,48 @@
+1.窗体就是个大的容器
+2.radioButton 单选按钮
+3.checkBox多选框
+4.AutoSize 自动调整大小
+5.size 大小
+6.StartPosition 起始位置，可居中之类
+7.ControlBox:是否存在窗体边缘的东西，比如最小化，关闭
+8.改过的属性都会变粗
+9.helpButton:帮助按钮
+10.Icon 窗体图标，更改的文件格式必须是Ico
+11.MDI：多文档界面，比如Excel表格
+12.IsMdiContainer：确定该窗体是否是MDI容器界面，可以说是 多文档界面的开启关键，设置之后，当前窗体会变成父容器
+13.MdiParent：确定是否是父母窗体(窗体的嵌套)
+14.MenuStrip，菜单，可插入标准项，方便操作
+15.窗体方法之: 窗体.Show(),该窗体会直接弹出
+15.变样的Show：ShowDialog()用户必须做决定的对话框，比如记事本的退出，必须先解决！
+16.CS：客户端服务器模式；BS：游览器服务器模式
+17.WindowState：窗体初始状态，比如直接最大化窗体
+18.MainMenuStrip：为窗体指定主MenuStrip，此属性多用于键盘的激活，和MDI中的自动合并，必须有菜单的情况下才可适用
+19.MaximizeBox：确定窗体的右上角是否存在最大化按钮，最小化也适用
+20.Opacity：透明度，改变运行窗体的透明度
+21.ShowIcon：显示窗体图标
+22.ShowIconTaskbar:确定窗体的图标是否会显示在任务栏，比如：QQ的图标在右下角
+23.ContextMenuStrip:当用户右击该控件时显示的快捷菜单，比如 右键桌面的效果
+24.当对控件改名时，要从Text改
+25.BackgroundImage:背景图
+26.BackgroundImage:用于组件的背景图像布局
+27.布局的关键词：stretch拉深，zoom缩放，tile屏铺
+28.cursor：指针移过该控件时，显示的光标，比如：小手
+29.ForeColor：前景色，控件的颜色
+30.FormBorderStyle：窗体样式边框
+31.Load：每当用户加载窗体时，发生的事件
+33.如何改变窗体的出现顺序：C#Program.CS中的Main代码的 Application.Run(new Form1());先new谁，谁就先出现
+34.怎样更换窗体？把现在的窗体隐藏即可，不可关闭，如果关闭，后续窗体也会随之关闭，并且前继窗体不会关闭，程序不会结束
+35.程序的退出：Application.Exit();
+36.TabIndex:确定此控件将占用的Tab键的顺序索引
+37.Enter：在控件成为活动控件时发生的事件
+38.Activated:每当窗体被激活时发生的事件
+39.Load比Activated 先执行
+40.Resize：改变窗体大小时，发生的事件
+41.在语句中加入逗号，可查询重载
+42.Formclosing与Fromclosed 事件并不相同，多用于 Formclosing，见名知意
+43.RichTextBox，比TextBox 更强大的文本控件
+44.Anchor：可将控件绑定到窗体边缘
+45.Dock：将控件分布到窗体边缘，上中下左右...
+46.事件对象名.Cancel 取消事件
+47.MessageBoxButtons.YesNo确定取消按钮   MessageBoxIcon.Information 图标
+48.对话框的返回值(由按钮决定)可接收！

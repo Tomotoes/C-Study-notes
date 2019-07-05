@@ -1,0 +1,6 @@
+D:\UserData\lenovo\Desktop\并行计算矩阵乘法\并行计算矩阵乘法\bin\Debug\并行计算矩阵乘法.exe.config
+D:\UserData\lenovo\Desktop\并行计算矩阵乘法\并行计算矩阵乘法\bin\Debug\并行计算矩阵乘法.exe
+D:\UserData\lenovo\Desktop\并行计算矩阵乘法\并行计算矩阵乘法\bin\Debug\并行计算矩阵乘法.pdb
+D:\UserData\lenovo\Desktop\并行计算矩阵乘法\并行计算矩阵乘法\obj\Debug\并行计算矩阵乘法.csprojResolveAssemblyReference.cache
+D:\UserData\lenovo\Desktop\并行计算矩阵乘法\并行计算矩阵乘法\obj\Debug\并行计算矩阵乘法.exe
+D:\UserData\lenovo\Desktop\并行计算矩阵乘法\并行计算矩阵乘法\obj\Debug\并行计算矩阵乘法.pdb

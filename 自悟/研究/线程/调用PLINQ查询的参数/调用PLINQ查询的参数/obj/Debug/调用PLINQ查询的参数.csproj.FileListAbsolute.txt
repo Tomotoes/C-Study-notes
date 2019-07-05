@@ -1,0 +1,6 @@
+G:\C#\自悟\研究\线程\调用PLINQ查询的参数\调用PLINQ查询的参数\bin\Debug\调用PLINQ查询的参数.exe.config
+G:\C#\自悟\研究\线程\调用PLINQ查询的参数\调用PLINQ查询的参数\bin\Debug\调用PLINQ查询的参数.exe
+G:\C#\自悟\研究\线程\调用PLINQ查询的参数\调用PLINQ查询的参数\bin\Debug\调用PLINQ查询的参数.pdb
+G:\C#\自悟\研究\线程\调用PLINQ查询的参数\调用PLINQ查询的参数\obj\Debug\调用PLINQ查询的参数.csprojResolveAssemblyReference.cache
+G:\C#\自悟\研究\线程\调用PLINQ查询的参数\调用PLINQ查询的参数\obj\Debug\调用PLINQ查询的参数.exe
+G:\C#\自悟\研究\线程\调用PLINQ查询的参数\调用PLINQ查询的参数\obj\Debug\调用PLINQ查询的参数.pdb

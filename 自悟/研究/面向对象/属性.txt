@@ -1,0 +1,54 @@
+http://www.jb51.net/article/48324.htm
+
+说下 属性的正确打开方式
+
+一般形式：
+
+public int A
+{ get{}  set{} }
+
+修饰符 （static）（new//隐藏）字段类型 属性名字
+{
+	
+  （修饰符） get{}
+  （修饰符）set{}
+
+}
+
+1.可重写
+
+父类
+{
+
+   public virtual int 字段名
+
+  {get{}   set{}}
+}
+
+子类：父类
+{
+  public override int 字段名
+  
+ {get{}   set{}}
+}
+
+2.父类 可为抽象类
+public abstract double Area  
+    {  
+        get;  
+        set;  
+    }  
+子类必须实现属性
+
+3.可用sealed 修饰属性，派生类便不能修改属性
+
+4.接口属性
+
+public interface Inters  
+{  
+    string Name  
+    {     
+        get;  
+        set;  
+    }  
+} 

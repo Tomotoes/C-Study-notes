@@ -1,0 +1,9 @@
+A:\临时文档\C#\百钱百鸡\百钱百鸡\bin\Debug\百钱百鸡.exe.config
+A:\临时文档\C#\百钱百鸡\百钱百鸡\bin\Debug\百钱百鸡.exe
+A:\临时文档\C#\百钱百鸡\百钱百鸡\bin\Debug\百钱百鸡.pdb
+A:\临时文档\C#\百钱百鸡\百钱百鸡\obj\Debug\百钱百鸡.csprojResolveAssemblyReference.cache
+A:\临时文档\C#\百钱百鸡\百钱百鸡\obj\Debug\百钱百鸡.Form1.resources
+A:\临时文档\C#\百钱百鸡\百钱百鸡\obj\Debug\百钱百鸡.Properties.Resources.resources
+A:\临时文档\C#\百钱百鸡\百钱百鸡\obj\Debug\百钱百鸡.csproj.GenerateResource.Cache
+A:\临时文档\C#\百钱百鸡\百钱百鸡\obj\Debug\百钱百鸡.exe
+A:\临时文档\C#\百钱百鸡\百钱百鸡\obj\Debug\百钱百鸡.pdb

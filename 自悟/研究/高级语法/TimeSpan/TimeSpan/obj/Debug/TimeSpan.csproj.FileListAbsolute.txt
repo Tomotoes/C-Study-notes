@@ -1,0 +1,6 @@
+H:\C#\自悟\研究\高级语法\TimeSpan\TimeSpan\bin\Debug\TimeSpan.exe.config
+H:\C#\自悟\研究\高级语法\TimeSpan\TimeSpan\bin\Debug\TimeSpan.exe
+H:\C#\自悟\研究\高级语法\TimeSpan\TimeSpan\bin\Debug\TimeSpan.pdb
+H:\C#\自悟\研究\高级语法\TimeSpan\TimeSpan\obj\Debug\TimeSpan.csprojResolveAssemblyReference.cache
+H:\C#\自悟\研究\高级语法\TimeSpan\TimeSpan\obj\Debug\TimeSpan.exe
+H:\C#\自悟\研究\高级语法\TimeSpan\TimeSpan\obj\Debug\TimeSpan.pdb

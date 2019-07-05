@@ -1,0 +1,6 @@
+G:\C#\Text\高级语法篇\高级语法篇\bin\Debug\高级语法篇.exe.config
+G:\C#\Text\高级语法篇\高级语法篇\bin\Debug\高级语法篇.exe
+G:\C#\Text\高级语法篇\高级语法篇\bin\Debug\高级语法篇.pdb
+G:\C#\Text\高级语法篇\高级语法篇\obj\Debug\高级语法篇.csprojResolveAssemblyReference.cache
+G:\C#\Text\高级语法篇\高级语法篇\obj\Debug\高级语法篇.exe
+G:\C#\Text\高级语法篇\高级语法篇\obj\Debug\高级语法篇.pdb

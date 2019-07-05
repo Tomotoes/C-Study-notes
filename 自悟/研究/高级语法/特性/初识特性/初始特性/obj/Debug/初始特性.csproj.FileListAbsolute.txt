@@ -1,0 +1,6 @@
+H:\C#\自悟\研究\特性\初始特性\初始特性\bin\Debug\初始特性.exe.config
+H:\C#\自悟\研究\特性\初始特性\初始特性\bin\Debug\初始特性.exe
+H:\C#\自悟\研究\特性\初始特性\初始特性\bin\Debug\初始特性.pdb
+H:\C#\自悟\研究\特性\初始特性\初始特性\obj\Debug\初始特性.csprojResolveAssemblyReference.cache
+H:\C#\自悟\研究\特性\初始特性\初始特性\obj\Debug\初始特性.exe
+H:\C#\自悟\研究\特性\初始特性\初始特性\obj\Debug\初始特性.pdb

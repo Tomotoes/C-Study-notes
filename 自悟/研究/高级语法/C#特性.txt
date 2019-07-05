@@ -1,0 +1,5 @@
+C#2.0 引入泛型
+C#3.0 引入Lambda 及 Linq
+C#4.0 引入动态新特性 dynamic
+C#5.0 引入并行及异步 async/await及Task
+C#6.0 改进编译，属性初始化

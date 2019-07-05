@@ -1,0 +1,1 @@
+在属性中找到 CheckOnClick

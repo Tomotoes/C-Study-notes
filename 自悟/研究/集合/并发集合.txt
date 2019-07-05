@@ -1,0 +1,56 @@
+ ConcurrentDictionary<int, string> concurrentDictionary = new ConcurrentDictionary<int, string>();
+
+            Dictionary<int,string> dictionary=new Dictionary<int,string>();
+
+            //现在来测量写操作
+            var SW = Stopwatch.StartNew();
+            for (int i = 0; i < 10000000; ++i)
+            {
+                lock (dictionary)
+                {
+                    dictionary[i] = "Dictionary item";
+                }
+            }
+            SW.Stop();
+            Console.WriteLine("普通集合花费时间: "+SW.ElapsedMilliseconds);
+
+            SW.Restart();
+            for (int i = 0; i < 10000000; ++i)
+            {
+                concurrentDictionary[i] = "Dictionary item";
+            }
+            SW.Stop();
+            Console.WriteLine("并发集合花费时间: " + SW.ElapsedMilliseconds);
+
+            //现在来测量读操作
+            string A = null;
+            SW.Restart();
+            for (int i = 0; i < 10000000; ++i)
+            {
+                lock (dictionary)
+                {
+                    A = dictionary[i];
+                }
+            }
+            SW.Stop();
+            Console.WriteLine("普通集合花费时间: " + SW.ElapsedMilliseconds);
+
+            SW.Restart();
+            for (int i = 0; i < 10000000; ++i)
+            {
+                A = concurrentDictionary[i];
+            }
+            SW.Stop();
+            Console.WriteLine("并发集合花费时间: " + SW.ElapsedMilliseconds);
+            /*
+             * 当程序启动时，我们创建了两个集合，其中一个是标准的字典集合，另一个是新的并发字典集合。
+             * 然后采用锁的机制向标准的字段中 添加元素，并测量完成10000000次迭代的时间，同样也采用同样的场景来测量 并发集合的性能最后比较从两个集合中获取值得性能。
+             * 
+             * 通过这个非常简单的场景，我们发现 并发集合 写操作 比 使用锁的通常集合 要慢得多，而读操作则要快些
+             * 因此 如果对字典需要大量的线程安全的读操作，并发集合 是最好的选择
+             * 
+             * 如果你对字典 只需要多线程访问只读元素，则没必要 执行线程安全的读操作。
+             * 在此场景中 最好只使用通常的字典集合 或 ReadOnlyDictionary集合
+             * 
+             * 并发字典集合 的实现 使用了 细粒度锁(fine-grained locking)技术，这在多线程 写入方面 比使用锁的通常的字典(也被称为 粗粒度锁)的可伸缩线更好。
+             */

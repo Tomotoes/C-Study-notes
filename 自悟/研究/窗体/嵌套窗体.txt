@@ -1,0 +1,9 @@
+  private void 新建NToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            /*
+             * 先在主窗体的Mdi功能打开，然后在副窗体 的实例化中 把MdiParent的改成主窗体
+             */
+            Form2 A = new Form2();
+            A.MdiParent = this;
+            A.Show();
+        }

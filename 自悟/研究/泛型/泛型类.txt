@@ -1,0 +1,88 @@
+public class Cage<T>
+    {
+        T[] Array;
+        int Nownum;
+        readonly int Size;
+        public Cage(int n)
+        {
+            Size = n;
+            Array=new T[Size];
+            Nownum = 0;
+        }
+        public void Add(T Dog)
+        {
+            if (Nownum < Size)
+            {
+                Array[Nownum++] = Dog;
+            }
+            else
+            {
+                Console.WriteLine("Cage is full!");
+            }
+        }
+        public T TakeOut()
+        {
+            if (Nownum < 0)
+            {
+                Console.WriteLine("Cage is empty!");
+                return default(T);//default 具有自动匹配功能，
+	不管T是引用类型还是值类型，都会返回空，也就是默认值。
+            }
+            else
+            {
+                return Array[--Nownum];
+            }
+        }
+    }
+    public class Dog
+    {
+        private string Name;
+
+        public string Name1
+        {
+            get { return Name; }
+            set { Name = value; }
+        }
+        public Dog(string name)
+        {
+            Name = name;
+        }
+        public void PrintName()
+        {
+            Console.WriteLine("Dog's Name is " + Name);
+        }
+
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+             * 什么是泛型类？
+             * 泛型类就是一个模子，装入类型的材料，可以塑造出想要的产品
+             * 比如：装入水泥，产生泥娃娃，装入金属，产生金属娃娃
+             * 
+             * 语法展示：
+             * class Case<T>                        泛型类的声明
+              {
+                T[] array;
+                public void Puth(T pet) { ... }
+                public T TakeOut(int index) { ... }
+              }
+             * var Dogcase = new Case<Dog>();       构造实例
+             * 
+             * Cage<Dog> DogCage;                   类型的引用
+             * 
+             * 这里的 T 的实际作用 是一个 占位符形式的类型，可能是 Dog或者Cat之类
+             * 
+             * 为什么需要泛型？
+             * 用基类或者公共的接口，甚至是所有类的基类object，也可以实现一个Cage类
+             * 但是类型太宽泛，需要显示转换类型，并且判断真实类型是什么。
+             */
+            var DogCage = new Cage<Dog>(2);//此时 DogCage便是泛型类Cage的一个对象
+            DogCage.Add(new Dog("小A"));//参数必须匹配，T dog = Dog dog("xxx")；
+
+            Dog dog = DogCage.TakeOut();//因为此函数返回的是T类型，Dog类型，所以定义Dog对象接收。当然var也很好
+            dog.PrintName();
+        }
+    }

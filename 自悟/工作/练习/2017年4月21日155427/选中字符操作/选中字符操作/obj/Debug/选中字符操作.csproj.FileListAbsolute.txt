@@ -1,0 +1,12 @@
+d:\userdata\lenovo\documents\visual studio 2013\Projects\选中字符操作\选中字符操作\bin\Debug\选中字符操作.exe.config
+d:\userdata\lenovo\documents\visual studio 2013\Projects\选中字符操作\选中字符操作\bin\Debug\选中字符操作.exe
+d:\userdata\lenovo\documents\visual studio 2013\Projects\选中字符操作\选中字符操作\bin\Debug\选中字符操作.pdb
+d:\userdata\lenovo\documents\visual studio 2013\Projects\选中字符操作\选中字符操作\obj\Debug\选中字符操作.csprojResolveAssemblyReference.cache
+d:\userdata\lenovo\documents\visual studio 2013\Projects\选中字符操作\选中字符操作\obj\Debug\选中字符操作.Form1.resources
+d:\userdata\lenovo\documents\visual studio 2013\Projects\选中字符操作\选中字符操作\obj\Debug\选中字符操作.Properties.Resources.resources
+d:\userdata\lenovo\documents\visual studio 2013\Projects\选中字符操作\选中字符操作\obj\Debug\选中字符操作.csproj.GenerateResource.Cache
+d:\userdata\lenovo\documents\visual studio 2013\Projects\选中字符操作\选中字符操作\obj\Debug\选中字符操作.exe
+d:\userdata\lenovo\documents\visual studio 2013\Projects\选中字符操作\选中字符操作\obj\Debug\选中字符操作.pdb
+D:\C#\自悟\工作\练习\2017年4月21日155427\选中字符操作\选中字符操作\bin\Debug\选中字符操作.exe.config
+D:\C#\自悟\工作\练习\2017年4月21日155427\选中字符操作\选中字符操作\obj\Debug\选中字符操作.exe
+D:\C#\自悟\工作\练习\2017年4月21日155427\选中字符操作\选中字符操作\obj\Debug\选中字符操作.pdb

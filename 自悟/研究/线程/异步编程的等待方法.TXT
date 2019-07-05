@@ -1,0 +1,40 @@
+using System;
+using System.Text;
+using static System.Threading.Thread;
+using System.Diagnostics;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        public delegate void MyDelegate(int q);
+        static Action<int> Q = P => Console.WriteLine("This is P!");
+        static void Main(string[] args)
+        {
+            IAsyncResult R = Q.BeginInvoke(5, QW => Console.WriteLine("{0}", QW.AsyncState), "QWE");
+
+            //【1】等待方式 1：AsyncWaitHandle.WaitOne() 方法
+            // R.AsyncWaitHandle.WaitOne();//表示一直等待 值到完成
+
+            //【2】等待方式 2：While(IsCompleted)
+            //while (!R.IsCompleted)
+            //{
+            //    Console.WriteLine("没未完成");
+            //}
+
+            //【3】等待方式 3：EndInvoke(X)
+            Q.EndInvoke(R);//会一直等着方法结束
+
+
+            /*
+            总结，每种等待方式 都需要 IAsyncResult接口的属性或者方法
+            在第一种等待，需要 IAsyncResult.AsyncWaitHandle.WaitOne() 方法
+            在第二种等待，需要 IAsyncResult.IsCompleted 属性
+            在第三种等待，需要 委托.EndInvoke(IAsyncResult) 方法
+
+            不过事实证明，每种等待方法 都是在方法结束时 立刻结束，根本不会执行回调函数，除非用下面的终极代码
+             */
+            //Sleep(5000);
+        }
+    }
+}

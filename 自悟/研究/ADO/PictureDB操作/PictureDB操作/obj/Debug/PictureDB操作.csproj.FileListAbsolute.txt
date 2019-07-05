@@ -1,0 +1,9 @@
+H:\C#\自悟\研究\ADO.Net\PictureDB操作\PictureDB操作\bin\Debug\PictureDB操作.exe.config
+H:\C#\自悟\研究\ADO.Net\PictureDB操作\PictureDB操作\bin\Debug\PictureDB操作.exe
+H:\C#\自悟\研究\ADO.Net\PictureDB操作\PictureDB操作\bin\Debug\PictureDB操作.pdb
+H:\C#\自悟\研究\ADO.Net\PictureDB操作\PictureDB操作\obj\Debug\PictureDB操作.csprojResolveAssemblyReference.cache
+H:\C#\自悟\研究\ADO.Net\PictureDB操作\PictureDB操作\obj\Debug\PictureDB操作.Form1.resources
+H:\C#\自悟\研究\ADO.Net\PictureDB操作\PictureDB操作\obj\Debug\PictureDB操作.Properties.Resources.resources
+H:\C#\自悟\研究\ADO.Net\PictureDB操作\PictureDB操作\obj\Debug\PictureDB操作.csproj.GenerateResource.Cache
+H:\C#\自悟\研究\ADO.Net\PictureDB操作\PictureDB操作\obj\Debug\PictureDB操作.exe
+H:\C#\自悟\研究\ADO.Net\PictureDB操作\PictureDB操作\obj\Debug\PictureDB操作.pdb

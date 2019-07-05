@@ -1,0 +1,96 @@
+  public class Dog
+    {
+        private string Name;
+
+        public string Name1
+        {
+            get { return Name; }
+            set { Name = value; }
+        }
+
+        public Dog(string name)
+        {
+            Name = name;
+        }
+
+        public void Speak()
+        {
+            Console.WriteLine(Name+" is wangwang!");
+        } 
+
+        public static implicit operator Cat(Dog dog)
+        {
+            return new Cat(dog.Name);
+        }
+    }
+
+    public class Cat
+    {
+        private string Name;
+
+        public string Name1
+        {
+            get { return Name; }
+            set { Name = value; }
+        }
+
+        public Cat(string name)
+        {
+            Name = name;
+        }
+        public void Speak()
+        {
+            Console.WriteLine(Name + " is miaomiao!");
+        }
+
+        public static explicit operator Dog(Cat cat)
+        {
+            return new Dog(cat.Name);
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            /*
+             * 什么是自定义转换
+             * 为自己的结构或者类 定义显式 或隐式的转换
+             * 
+             * 为什么需要自定义转换
+             * 为了让我们自己的结构或者类可以变成一个预期相关的类型，并且这种转换更加简单
+             
+            
+             * 隐式转换
+             * public static implicit operator Dog(Cat cat)
+             * {
+                    return new Cat(dog.Name);
+               }
+                         
+             * 显式转换
+             * public static explicit operator Dog(Cat cat)
+             * {
+                    return new Dog(cat.Name);
+               }
+             */
+
+
+            /*
+             * 注意一下 转换的格式 
+             * 修饰符 static 显式转换/隐式转换关键字 operator 转换之后的类名 ( 转换的类名 转换的类的对象名 )
+             * {
+             *      return new 转换之后的类名( 转换的类的对象名.转换的类的字段 )
+             * }
+             */
+
+            Dog dog = new Dog("Liulin");
+            dog.Speak();
+
+            Cat cat = dog;
+            cat.Speak();
+
+            Dog dog2 = (Dog)cat;//显式转换 == 强制转换
+            dog2.Speak();
+
+        }
+    }

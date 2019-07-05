@@ -1,0 +1,9 @@
+c:\users\lenovo\documents\visual studio 2013\Projects\同时滚动\同时滚动\bin\Debug\同时滚动.exe.config
+c:\users\lenovo\documents\visual studio 2013\Projects\同时滚动\同时滚动\bin\Debug\同时滚动.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\同时滚动\同时滚动\bin\Debug\同时滚动.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\同时滚动\同时滚动\obj\Debug\同时滚动.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2013\Projects\同时滚动\同时滚动\obj\Debug\同时滚动.Form1.resources
+c:\users\lenovo\documents\visual studio 2013\Projects\同时滚动\同时滚动\obj\Debug\同时滚动.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2013\Projects\同时滚动\同时滚动\obj\Debug\同时滚动.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2013\Projects\同时滚动\同时滚动\obj\Debug\同时滚动.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\同时滚动\同时滚动\obj\Debug\同时滚动.pdb

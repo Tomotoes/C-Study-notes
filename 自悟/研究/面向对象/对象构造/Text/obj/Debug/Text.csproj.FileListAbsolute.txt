@@ -1,0 +1,12 @@
+D:\UserData\lenovo\Desktop\Text\Text\bin\Debug\Text.exe.config
+D:\UserData\lenovo\Desktop\Text\Text\obj\Debug\Text.csprojResolveAssemblyReference.cache
+D:\UserData\lenovo\Desktop\Text\Text\bin\Debug\Text.exe
+D:\UserData\lenovo\Desktop\Text\Text\bin\Debug\Text.pdb
+D:\UserData\lenovo\Desktop\Text\Text\obj\Debug\Text.exe
+D:\UserData\lenovo\Desktop\Text\Text\obj\Debug\Text.pdb
+H:\C#\自悟\研究\面向对象\对象构造\Text\bin\Debug\Text.exe.config
+H:\C#\自悟\研究\面向对象\对象构造\Text\obj\Debug\Text.exe
+H:\C#\自悟\研究\面向对象\对象构造\Text\obj\Debug\Text.pdb
+H:\C#\自悟\研究\面向对象\对象构造\Text\bin\Debug\Text.exe
+H:\C#\自悟\研究\面向对象\对象构造\Text\bin\Debug\Text.pdb
+H:\C#\自悟\研究\面向对象\对象构造\Text\obj\Debug\Text.csprojResolveAssemblyReference.cache

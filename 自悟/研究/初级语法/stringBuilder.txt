@@ -1,0 +1,4 @@
+--StringBuilder 与 String的区别？
+
+string在进行运算时（如 赋值，拼接等）会产生一个新的实例，而 StringBuilder则不会。
+所以在大量字符串拼接或频繁对某一字符串进行操作时，最好使用stringBuilder

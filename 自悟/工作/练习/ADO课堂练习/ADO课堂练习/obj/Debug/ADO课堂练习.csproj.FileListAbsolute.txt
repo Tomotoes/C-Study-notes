@@ -1,0 +1,9 @@
+H:\C#\自悟\工作\练习\ADO课堂练习\ADO课堂练习\bin\Debug\ADO课堂练习.exe.config
+H:\C#\自悟\工作\练习\ADO课堂练习\ADO课堂练习\bin\Debug\ADO课堂练习.exe
+H:\C#\自悟\工作\练习\ADO课堂练习\ADO课堂练习\bin\Debug\ADO课堂练习.pdb
+H:\C#\自悟\工作\练习\ADO课堂练习\ADO课堂练习\obj\Debug\ADO课堂练习.csprojResolveAssemblyReference.cache
+H:\C#\自悟\工作\练习\ADO课堂练习\ADO课堂练习\obj\Debug\ADO课堂练习.Form1.resources
+H:\C#\自悟\工作\练习\ADO课堂练习\ADO课堂练习\obj\Debug\ADO课堂练习.Properties.Resources.resources
+H:\C#\自悟\工作\练习\ADO课堂练习\ADO课堂练习\obj\Debug\ADO课堂练习.csproj.GenerateResource.Cache
+H:\C#\自悟\工作\练习\ADO课堂练习\ADO课堂练习\obj\Debug\ADO课堂练习.exe
+H:\C#\自悟\工作\练习\ADO课堂练习\ADO课堂练习\obj\Debug\ADO课堂练习.pdb

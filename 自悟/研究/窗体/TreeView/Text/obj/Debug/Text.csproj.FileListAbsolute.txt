@@ -1,0 +1,12 @@
+c:\users\lenovo\documents\visual studio 2013\Projects\Text\Text\bin\Debug\Text.exe.config
+c:\users\lenovo\documents\visual studio 2013\Projects\Text\Text\bin\Debug\Text.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\Text\Text\bin\Debug\Text.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\Text\Text\obj\Debug\Text.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2013\Projects\Text\Text\obj\Debug\Text.Form1.resources
+c:\users\lenovo\documents\visual studio 2013\Projects\Text\Text\obj\Debug\Text.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2013\Projects\Text\Text\obj\Debug\Text.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2013\Projects\Text\Text\obj\Debug\Text.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\Text\Text\obj\Debug\Text.pdb
+H:\C#\自悟\闲暇\研究\窗体控件\TreeView\Text\bin\Debug\Text.exe.config
+H:\C#\自悟\闲暇\研究\窗体控件\TreeView\Text\obj\Debug\Text.exe
+H:\C#\自悟\闲暇\研究\窗体控件\TreeView\Text\obj\Debug\Text.pdb

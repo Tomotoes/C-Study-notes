@@ -1,0 +1,10 @@
+H:\C#\自悟\研究\面向对象\窗体之间的通信\窗体之间的通信\bin\Debug\窗体之间的通信.exe.config
+H:\C#\自悟\研究\面向对象\窗体之间的通信\窗体之间的通信\bin\Debug\窗体之间的通信.exe
+H:\C#\自悟\研究\面向对象\窗体之间的通信\窗体之间的通信\bin\Debug\窗体之间的通信.pdb
+H:\C#\自悟\研究\面向对象\窗体之间的通信\窗体之间的通信\obj\Debug\窗体之间的通信.csprojResolveAssemblyReference.cache
+H:\C#\自悟\研究\面向对象\窗体之间的通信\窗体之间的通信\obj\Debug\窗体之间的通信.Form1.resources
+H:\C#\自悟\研究\面向对象\窗体之间的通信\窗体之间的通信\obj\Debug\窗体之间的通信.Form2.resources
+H:\C#\自悟\研究\面向对象\窗体之间的通信\窗体之间的通信\obj\Debug\窗体之间的通信.Properties.Resources.resources
+H:\C#\自悟\研究\面向对象\窗体之间的通信\窗体之间的通信\obj\Debug\窗体之间的通信.csproj.GenerateResource.Cache
+H:\C#\自悟\研究\面向对象\窗体之间的通信\窗体之间的通信\obj\Debug\窗体之间的通信.exe
+H:\C#\自悟\研究\面向对象\窗体之间的通信\窗体之间的通信\obj\Debug\窗体之间的通信.pdb

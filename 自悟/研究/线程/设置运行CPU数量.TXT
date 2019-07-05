@@ -1,0 +1,18 @@
+using System;
+using System.Text;
+using System.Threading;
+using System.Diagnostics;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Process.GetCurrentProcess().ProcessorAffinity = new IntPtr(1);
+            /*
+            让操作系统将所有的线程运行在单个CPU核心(第一个核心)上。
+             */
+        }
+    }
+}

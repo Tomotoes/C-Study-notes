@@ -1,0 +1,5 @@
+c:\users\lenovo\documents\visual studio 2013\Projects\杨辉三角\杨辉三角\bin\Debug\杨辉三角.exe.config
+c:\users\lenovo\documents\visual studio 2013\Projects\杨辉三角\杨辉三角\bin\Debug\杨辉三角.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\杨辉三角\杨辉三角\bin\Debug\杨辉三角.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\杨辉三角\杨辉三角\obj\Debug\杨辉三角.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\杨辉三角\杨辉三角\obj\Debug\杨辉三角.pdb

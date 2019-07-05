@@ -1,0 +1,23 @@
+   class Program
+    {
+        /* 1.static变量*/
+        static int A;
+        /*相当于类中的“全局变量”*/
+
+        /* 2.域变量 */
+        public int B;
+        /*相当于对象中的变量*/
+        static void Main(string[] args)
+        {
+          /* 3.局部变量*/
+            int R;
+            int[] C = new int[5];
+            /*在函数体及其{}中，在栈中分配，自动消失*/
+            Console.WriteLine(A);
+            Console.WriteLine(new Program().B);
+            Console.WriteLine(C[3]);//数组为引用类型 这是和int R 最显著的差别
+            //Console.WriteLine(R);如果局部变量没有初始值 则无法运行
+            
+            /*tip：域变量自动有初值，局部变量则不*/
+        }
+    }

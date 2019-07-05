@@ -1,0 +1,18 @@
+c:\users\lenovo\documents\visual studio 2013\Projects\GDI+\GDI+\bin\Debug\GDI+.exe.config
+c:\users\lenovo\documents\visual studio 2013\Projects\GDI+\GDI+\obj\Debug\GDI_.Form1.resources
+c:\users\lenovo\documents\visual studio 2013\Projects\GDI+\GDI+\obj\Debug\GDI_.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2013\Projects\GDI+\GDI+\obj\Debug\GDI+.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2013\Projects\GDI+\GDI+\bin\Debug\GDI+.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\GDI+\GDI+\bin\Debug\GDI+.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\GDI+\GDI+\obj\Debug\GDI+.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\GDI+\GDI+\obj\Debug\GDI+.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\GDI+\GDI+\obj\Debug\GDI+.csprojResolveAssemblyReference.cache
+H:\C#\自悟\闲暇\研究\GDI+\GDI+\GDI+\bin\Debug\GDI+.exe.config
+H:\C#\自悟\闲暇\研究\GDI+\GDI+\GDI+\obj\Debug\GDI+.exe
+H:\C#\自悟\闲暇\研究\GDI+\GDI+\GDI+\obj\Debug\GDI+.pdb
+H:\C#\自悟\闲暇\研究\GDI+\GDI+\GDI+\obj\Debug\GDI+.csprojResolveAssemblyReference.cache
+H:\C#\自悟\闲暇\研究\GDI+\GDI+\GDI+\obj\Debug\GDI_.Form1.resources
+H:\C#\自悟\闲暇\研究\GDI+\GDI+\GDI+\obj\Debug\GDI_.Properties.Resources.resources
+H:\C#\自悟\闲暇\研究\GDI+\GDI+\GDI+\obj\Debug\GDI+.csproj.GenerateResource.Cache
+H:\C#\自悟\闲暇\研究\GDI+\GDI+\GDI+\bin\Debug\GDI+.exe
+H:\C#\自悟\闲暇\研究\GDI+\GDI+\GDI+\bin\Debug\GDI+.pdb

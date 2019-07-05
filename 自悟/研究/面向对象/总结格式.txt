@@ -1,0 +1,79 @@
+直接来样例
+
+class Base
+{
+    private string Name; 
+   
+    构造函数：	
+    public Base(string name)构造函数:无函数类型的函数
+    {
+    	Name=name;
+    }
+
+    属性：
+    public string Name1	    属性:  字段的定义
+    {
+	get{ return Name; }
+     
+        set{ Name = value;}
+   
+    }
+}
+
+
+abstract class ABase
+{
+    public abstract void Method();     抽象类：public 与 abstract 修饰
+}
+
+interface IBase
+{
+    void Imethod();		       接口：  无任何修饰符，只有函数类型
+}
+
+class Son:ABase
+{
+    override public void Method()      继承抽象类：必须有override 与 public
+    {
+     	...
+    }
+
+    public void Imethod()   继承接口： 要有 public！因为接口类型便是它,除非是显示接口！
+    {
+    	...
+    }
+}
+
+索引器的属性
+
+修饰符 存取对象的类型(value的类型) this关键字 [ 下标值类型 参数名 ]
+
+自定义转换的格式 
+* 修饰符 static 显式转换explicit/隐式转换关键字implicit operator 转换之后的类名 ( 转换的类名 转换的类的对象名 )
+* {
+*      return new 转换之后的类名( 转换的类的对象名.转换的类的字段 )
+* }
+
+重载运算符
+修饰符 static 返回类型（一般为类名）operator 重载符号 （参数）
+{ 有符号的操作，return... }
+
+委托
+修饰符 delegate 委托类型 委托名();
+格式要点：除了最开始的委托定义，与最后的委托使用，中间过程 委托是用不着括号的()
+委托就是变量的操作!
+
+事件
+修饰符 event 委托名/EventHandler 事件名;
+事件调用时，记得加上();
+
+泛型约束
+
+class 类名<T1>:继承xxx where T1:xxx/constraint1{....}where T2：xxx constraint2{....}
+
+其中 constraint定义了约束，可以用这种方式提供许多约束 还可以使用多个where
+需要注意 约束必须出现在继承说明符的后面。
+
+泛型类实例化：
+var 引用对象名 = new 泛型类名<引用类型>();
+

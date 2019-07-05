@@ -1,0 +1,6 @@
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\Text\Text\bin\Debug\Text.exe.config
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\Text\Text\obj\Debug\Text.csprojResolveAssemblyReference.cache
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\Text\Text\bin\Debug\Text.exe
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\Text\Text\bin\Debug\Text.pdb
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\Text\Text\obj\Debug\Text.exe
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\Text\Text\obj\Debug\Text.pdb

@@ -1,0 +1,6 @@
+c:\users\lenovo\documents\visual studio 2013\Projects\鞍点\鞍点\bin\Debug\鞍点.exe.config
+c:\users\lenovo\documents\visual studio 2013\Projects\鞍点\鞍点\bin\Debug\鞍点.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\鞍点\鞍点\bin\Debug\鞍点.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\鞍点\鞍点\obj\Debug\鞍点.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2013\Projects\鞍点\鞍点\obj\Debug\鞍点.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\鞍点\鞍点\obj\Debug\鞍点.pdb

@@ -1,0 +1,9 @@
+H:\C#\自悟\工作\练习\对话框练习\对话框练习\bin\Debug\对话框练习.exe.config
+H:\C#\自悟\工作\练习\对话框练习\对话框练习\bin\Debug\对话框练习.exe
+H:\C#\自悟\工作\练习\对话框练习\对话框练习\bin\Debug\对话框练习.pdb
+H:\C#\自悟\工作\练习\对话框练习\对话框练习\obj\Debug\对话框练习.csprojResolveAssemblyReference.cache
+H:\C#\自悟\工作\练习\对话框练习\对话框练习\obj\Debug\对话框练习.Form1.resources
+H:\C#\自悟\工作\练习\对话框练习\对话框练习\obj\Debug\对话框练习.Properties.Resources.resources
+H:\C#\自悟\工作\练习\对话框练习\对话框练习\obj\Debug\对话框练习.csproj.GenerateResource.Cache
+H:\C#\自悟\工作\练习\对话框练习\对话框练习\obj\Debug\对话框练习.exe
+H:\C#\自悟\工作\练习\对话框练习\对话框练习\obj\Debug\对话框练习.pdb

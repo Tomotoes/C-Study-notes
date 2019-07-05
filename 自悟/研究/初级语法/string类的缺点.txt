@@ -1,0 +1,6 @@
+
+ 要知道String是一个密封类，不可继承
+ 
+ String s = new String（“MJ”）;  创建了几个String Object？
+ 
+ 两个对象，一个是“xyz” ，一个是指向“xyz”的引用对象s  （不如 StringBuilder） 

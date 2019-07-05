@@ -1,0 +1,25 @@
+~类名(){}
+
+析构方法会自动调用 父类的析构方法
+
+注：编译器 生成的构造方法名字为 ctor()
+  	   生成的析构方法名字为 Finalize()
+
+不能显示地调用析构方法
+
+“强制回收” System.GC.Collect()
+
+垃圾回收 是 后台一个进程 进行的 
+它会记录 哪一东西在引用 哪一个东西没在引用便可以回收
+
+显示资源管理 
+·实现 IDisposable接口
+·其中有方法 void Dispose();
+
+使用 using语句:执行完相关程序 会自动进行垃圾回收
+
+R r = new R();
+try{ r.method();}
+finally{ if (r!=null)((IDisposable)r.Dispose());}
+
+using(R r = new R()){ r.method(); } 

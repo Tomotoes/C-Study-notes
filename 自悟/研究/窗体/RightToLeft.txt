@@ -1,0 +1,15 @@
+这个控件很简单 作用让文本控件的左右显示顺序改变，但是其属性值 是Yes/No
+
+本以为 把属性值改为true 便可以，但是错误百出。
+
+最后从网上 找到了答案，也让我对设置属性这件事 有了更深的经验：
+
+当属性值为Yes，No时，设置的属性值的类型必须和 该属性的类型相匹配。
+
+问题来了 ，如何匹配 实例化吗？
+
+其实很简单，从高的优先级往下找！
+
+最高的优先：System.Windows.Forms.RightToLeft.Yes
+
+Main.RightToLeft = System.Windows.Forms.RightToLeft.Yes;

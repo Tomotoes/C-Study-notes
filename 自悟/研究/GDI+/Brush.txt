@@ -1,0 +1,18 @@
+Brush,是一个抽象类，不能直接被new 实例化
+
+有5个派生类，分别实行不同类型的画刷。
+
+SolidBrush：实心画刷
+
+HatchBrush：阴影画刷
+
+LinearGradientBrush:填充颜色线性渐变画刷
+
+PathGradientBrush：填充颜色沿路径渐变画刷
+
+TextureBrush：使用图像进行填充画刷
+
+
+Brush brush = new SolidBrush(Color.FromName("Red"));
+
+Brush brush1 = new HatchBrush(HatchStyle.Cross, Color.Purple);

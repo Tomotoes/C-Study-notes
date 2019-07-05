@@ -1,0 +1,66 @@
+在C#中，有时候希望通过指针来操作内存，这样可以提高效率。我们可以用unsafe关键字修饰含有指针操作的程序段，如下所示：
+
+class Program 
+{ 
+  static int Main(string[] args) 
+  {
+
+      unsafe 
+      { 
+          // ... 
+      } 
+  } 
+}
+
+unsafe只是编译器指令语法，只是在编译的时候起作用，并不是说unsafe修饰的程序段是unmanaged，他们仍然是managed的。
+
+ 
+
+在C#里定义指针和C++有些不同：
+
+1. C#指针定义的星号只能和类型在一起
+
+     int* p1, p2;    //p1和p2都是int*指针
+
+     而在C++中与之等价的定义是：
+
+     int *p1, *p2;  //C++
+
+     int *p1, p2;   //C++中，p2只是一个普通的int
+
+ 
+
+2. C#指针类型不能是引用类型，不能是含有引用类型的自定义类型或复合类型，只能是预定义类型
+
+    string* pMessage    //错误C#指针定义
+
+    struct ServiceStatus 
+    { 
+      int State; 
+      string Description;  // 引用类型   
+
+    }
+
+    ServiceStatus* pStatus   //错误指针定义
+
+ 
+
+3. C#中指针赋值
+
+    在C#里，引用类型也叫Movable类型，由于垃圾回收器和内存布局优化，在堆上分配的内存是不固定的，会被挪动。所不   
+
+    能将堆上分配的地址赋值给C#指针， 如果能将堆上地址固定，就没有问题了，那么如何固定引用类型？C#中有一个关键字 
+
+    fixed可以用在此处。
+
+    byte* pData = &bytes[0];  // 编译错误，数组在C#里是引用类型，属于movable
+
+    byte[] bytes = new byte[24]; 
+    fixed (byte* pData = &bytes)   //正确，使用fixed固定 
+    { 
+       // ... 
+    }
+
+    当然，使用fixed不是没有代价的，它会使内存出现碎片。
+
+分类: C#

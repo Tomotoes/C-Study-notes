@@ -1,0 +1,29 @@
+值类型的转换
+
+1.数字类型之间可以互相转换
+ ·隐式转换 float f = 3;
+ ·显示转换 int i = (int)3.14:;
+ ·整型转换 sbyte a=1,b=2; a+b为int型
+
+2.枚举类型和数字类型之间可以显式转换(强制类型转换)
+
+3.结构类型之间不能转换
+
+
+引用类型转换
+
+1.显式或隐式转换(都要求有继承关系)
+·Person p = new Student();//隐式转换
+·Student s = (Student)p;  //显式转换 可能转换成功，也可能异常
+·IRunnable r = p;	   //隐式转换	
+
+2.as运算符
+
+Student s = P as Student; //可能成功 ， 也可能为null
+
+
+引用类型和值类型的转换（详细请见装箱和拆箱）
+
+int i = 123;
+object o = i;
+int j = (int)o;

@@ -1,0 +1,4 @@
+void button1_Click(object sender, EventArgs e)
+           
+	 Button NowButton = sender as Button;//NowButton 为此时选中的按钮
+         Button NowButton = (Button)sender;

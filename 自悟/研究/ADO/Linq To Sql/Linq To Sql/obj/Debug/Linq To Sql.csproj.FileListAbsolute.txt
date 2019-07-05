@@ -1,0 +1,1 @@
+H:\C#\自悟\研究\ADO.Net\Linq To Sql\Linq To Sql\bin\Debug\Linq To Sql.exe.config

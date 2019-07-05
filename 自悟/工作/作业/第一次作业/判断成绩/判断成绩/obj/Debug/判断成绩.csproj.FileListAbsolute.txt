@@ -1,0 +1,9 @@
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\判断成绩\判断成绩\bin\Debug\判断成绩.exe.config
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\判断成绩\判断成绩\bin\Debug\判断成绩.exe
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\判断成绩\判断成绩\bin\Debug\判断成绩.pdb
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\判断成绩\判断成绩\obj\Debug\判断成绩.Form1.resources
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\判断成绩\判断成绩\obj\Debug\判断成绩.Properties.Resources.resources
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\判断成绩\判断成绩\obj\Debug\判断成绩.csproj.GenerateResource.Cache
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\判断成绩\判断成绩\obj\Debug\判断成绩.exe
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\判断成绩\判断成绩\obj\Debug\判断成绩.pdb
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\判断成绩\判断成绩\obj\Debug\判断成绩.csprojResolveAssemblyReference.cache

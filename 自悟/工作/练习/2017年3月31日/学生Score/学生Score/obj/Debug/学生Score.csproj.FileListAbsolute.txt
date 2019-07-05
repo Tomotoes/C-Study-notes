@@ -1,0 +1,8 @@
+c:\users\lenovo\documents\visual studio 2013\Projects\学生Score\学生Score\bin\Debug\学生Score.exe.config
+c:\users\lenovo\documents\visual studio 2013\Projects\学生Score\学生Score\bin\Debug\学生Score.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\学生Score\学生Score\bin\Debug\学生Score.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\学生Score\学生Score\obj\Debug\学生Score.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\学生Score\学生Score\obj\Debug\学生Score.pdb
+H:\C#\自悟\Work\课堂练习2017年3月31日\学生Score\学生Score\bin\Debug\学生Score.exe.config
+H:\C#\自悟\Work\课堂练习2017年3月31日\学生Score\学生Score\obj\Debug\学生Score.exe
+H:\C#\自悟\Work\课堂练习2017年3月31日\学生Score\学生Score\obj\Debug\学生Score.pdb

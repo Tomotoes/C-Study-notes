@@ -1,0 +1,11 @@
+并行编程就是 多个CPU 同时协作执行一些任务
+
+并行任务库 TPL(Task Parallel Library)
+
+最重要的是 Task类，还有 Parallel类
+
+·Task类，是利用 线程池来进行任务的执行
+	·比直接用 ThreadPool更优化 ，而且编程更方便
+
+·Parallel类，是并行执行任务类的实用类
+	·好处是可以隐式地使用Task，更方便

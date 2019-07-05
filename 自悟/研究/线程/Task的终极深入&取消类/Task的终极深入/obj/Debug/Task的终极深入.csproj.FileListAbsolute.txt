@@ -1,0 +1,10 @@
+G:\C#\自悟\研究\线程\Task的终极深入\Task的终极深入\bin\Debug\Task的终极深入.exe.config
+G:\C#\自悟\研究\线程\Task的终极深入\Task的终极深入\bin\Debug\Task的终极深入.exe
+G:\C#\自悟\研究\线程\Task的终极深入\Task的终极深入\bin\Debug\Task的终极深入.pdb
+G:\C#\自悟\研究\线程\Task的终极深入\Task的终极深入\obj\Debug\Task的终极深入.csprojResolveAssemblyReference.cache
+G:\C#\自悟\研究\线程\Task的终极深入\Task的终极深入\obj\Debug\Task的终极深入.exe
+G:\C#\自悟\研究\线程\Task的终极深入\Task的终极深入\obj\Debug\Task的终极深入.pdb
+H:\C#\自悟\研究\线程\Task的终极深入\Task的终极深入\bin\Debug\Task的终极深入.exe.config
+H:\C#\自悟\研究\线程\Task的终极深入\Task的终极深入\obj\Debug\Task的终极深入.exe
+H:\C#\自悟\研究\线程\Task的终极深入\Task的终极深入\obj\Debug\Task的终极深入.pdb
+H:\C#\自悟\研究\线程\Task的终极深入\Task的终极深入\obj\Debug\Task的终极深入.csprojResolveAssemblyReference.cache

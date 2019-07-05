@@ -1,0 +1,32 @@
+linklabel 的含义不必多少
+
+主要说下使用方法
+
+linklabel 有几个牛逼的属性
+
+乱七八糟的颜色，让我想起了 HTML 的alink vlink这类。
+1.LinkColor 显示LinkLabel控件中所有链接的原始颜色
+2.ActiveLinkColor:显示当链接是活动时的颜色
+3.DisableLinkColor：显示当链接不能使用时的颜色
+
+一些使用的属性
+4.LinkBehavior：指定linklabel控件中的链接行为，说白了 就是下划线的事，喜欢 HoverUnderline 当移到控件时 会显示下划线
+5.LinkVisited：显示此链接 是否被访问过，如果被访问过 则LinkVisited的属性值为true
+6.LinkArea：用来标记 在Linklabel控件中的文本链接区域
+
+7.Links：最可怕的属性，没有之一。影分身~  操作方式 与 数组类似 都是通过索引
+        linkLabel1.Links.Add(0, 4);
+        linkLabel1.Links[0].LinkData = "www.sina.com";
+        linkLabel1.Links.Add(9, 2, "http://www.baidu.com/");
+        linkLabel1.Links.Add(12, 2, "http://www.google.cn/");
+        linkLabel1.Links.Add(15, 5, "http://www.yahoo.cn/");
+ 可以在一个控件中 分出很多链接。
+ 
+ 说下最重要的一点 启动链接：
+
+ 1.System.Diagnostics.Process.Start("http://www.baidu.com");  个人比较喜欢，启动的预览器 应该为本机默认的预览器
+ 2. System.Diagnostics.Process.Start("iexplore.exe", "http://www.baidu.com");以IE预览器 打开网页。
+ 另外还有4个重载 用户名加载之类。。
+ 
+ 一定要记住 打开网页的方式 System.Diagnostics(诊断).Process.Start(XXXX);
+还有4大属性（1.三个颜色属性）（2.下划线属性）    （3.判断是否爱过属性）（4.分割属性）（5.影分身属性（不止linklabel有）） 

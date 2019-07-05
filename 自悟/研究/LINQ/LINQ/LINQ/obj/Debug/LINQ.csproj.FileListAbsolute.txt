@@ -1,0 +1,9 @@
+G:\C#\自悟\研究\LINQ\LINQ\LINQ\bin\Debug\LINQ.exe.config
+G:\C#\自悟\研究\LINQ\LINQ\LINQ\bin\Debug\LINQ.exe
+G:\C#\自悟\研究\LINQ\LINQ\LINQ\bin\Debug\LINQ.pdb
+G:\C#\自悟\研究\LINQ\LINQ\LINQ\obj\Debug\LINQ.csprojResolveAssemblyReference.cache
+G:\C#\自悟\研究\LINQ\LINQ\LINQ\obj\Debug\LINQ.exe
+G:\C#\自悟\研究\LINQ\LINQ\LINQ\obj\Debug\LINQ.pdb
+H:\C#\自悟\研究\LINQ\LINQ\LINQ\bin\Debug\LINQ.exe.config
+H:\C#\自悟\研究\LINQ\LINQ\LINQ\obj\Debug\LINQ.exe
+H:\C#\自悟\研究\LINQ\LINQ\LINQ\obj\Debug\LINQ.pdb

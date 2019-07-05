@@ -1,0 +1,40 @@
+实际上 lock关键字 是Monitor类用例的一个语法糖。
+
+如果 我们分解使用了 lock关键字的代码，将会看到 它如下面代码片段所示：
+
+bool acquiredLock = false;
+
+try
+{
+	Monitor.Enter(lockObject,ref qcquiredLock);
+	//Code that accesses resources that are protected by the lock.
+}
+finally
+{
+	if(acquiredLock)
+	{
+		Monitor.Exit(lockObject);
+	}
+}
+
+因此，我们可以直接使用 Monitor类。
+其拥有 TryEnter方法，该方法 接受一个超时参数。
+如果在我们能够 获取被lock保护的资源之前，超时参数过期，则该方法会返回 false.
+ static void Main(string[] args)
+        {
+            object A = new object();
+
+            lock (A)
+            {
+                Thread.Sleep(1000);
+
+                if (Monitor.TryEnter(A, TimeSpan.FromMilliseconds(2)))
+                {
+                    Console.WriteLine("Acquired a protected resource 					succesfully");
+                }
+                else
+                {
+                    Console.WriteLine("Timeout acquiring a resource!");
+                }
+            }
+        }

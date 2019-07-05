@@ -1,0 +1,5 @@
+并行Linq(即PLinq)
+
+·只要在集合上加个 .AsParallel()
+
+Eg: var a=(from n in persons.AsParallel() where n.Age>20 select n).ToList();

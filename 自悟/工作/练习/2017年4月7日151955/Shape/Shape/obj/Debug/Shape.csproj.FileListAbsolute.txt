@@ -1,0 +1,9 @@
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\Shape\Shape\bin\Debug\Shape.exe.config
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\Shape\Shape\obj\Debug\Shape.csprojResolveAssemblyReference.cache
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\Shape\Shape\bin\Debug\Shape.exe
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\Shape\Shape\bin\Debug\Shape.pdb
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\Shape\Shape\obj\Debug\Shape.exe
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\Shape\Shape\obj\Debug\Shape.pdb
+H:\C#\自悟\Work\课堂练习\课堂练习2017年4月7日151955\Shape\Shape\bin\Debug\Shape.exe.config
+H:\C#\自悟\Work\课堂练习\课堂练习2017年4月7日151955\Shape\Shape\obj\Debug\Shape.exe
+H:\C#\自悟\Work\课堂练习\课堂练习2017年4月7日151955\Shape\Shape\obj\Debug\Shape.pdb

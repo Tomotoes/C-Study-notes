@@ -1,0 +1,2 @@
+D:\UserData\lenovo\Desktop\使用HttpClient的异步方法\使用HttpClient的异步方法\bin\Debug\使用HttpClient的异步方法.exe.config
+H:\C#\自悟\研究\多线程\使用HttpClient的异步方法\使用HttpClient的异步方法\bin\Debug\使用HttpClient的异步方法.exe.config

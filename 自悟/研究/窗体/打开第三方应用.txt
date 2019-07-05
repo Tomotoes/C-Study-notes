@@ -1,0 +1,2 @@
+System.Diagnostics.Process.Start("notepad.exe");
+打开第三方应用记事本  calc.exe 为计算器

@@ -1,0 +1,1 @@
+throw表示手动抛出一个异常：throw new Exception（“我抛出的异常!”）；

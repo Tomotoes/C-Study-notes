@@ -1,0 +1,14 @@
+H:\C#\自悟\工作\练习\播放图片\播放图片\bin\Debug\播放图片.exe.config
+H:\C#\自悟\工作\练习\播放图片\播放图片\bin\Debug\Jellyfish.jpg
+H:\C#\自悟\工作\练习\播放图片\播放图片\bin\Debug\Koala.jpg
+H:\C#\自悟\工作\练习\播放图片\播放图片\bin\Debug\Lighthouse.jpg
+H:\C#\自悟\工作\练习\播放图片\播放图片\bin\Debug\Penguins.jpg
+H:\C#\自悟\工作\练习\播放图片\播放图片\bin\Debug\Tulips.jpg
+H:\C#\自悟\工作\练习\播放图片\播放图片\bin\Debug\播放图片.exe
+H:\C#\自悟\工作\练习\播放图片\播放图片\bin\Debug\播放图片.pdb
+H:\C#\自悟\工作\练习\播放图片\播放图片\obj\Debug\播放图片.csprojResolveAssemblyReference.cache
+H:\C#\自悟\工作\练习\播放图片\播放图片\obj\Debug\播放图片.Form1.resources
+H:\C#\自悟\工作\练习\播放图片\播放图片\obj\Debug\播放图片.Properties.Resources.resources
+H:\C#\自悟\工作\练习\播放图片\播放图片\obj\Debug\播放图片.csproj.GenerateResource.Cache
+H:\C#\自悟\工作\练习\播放图片\播放图片\obj\Debug\播放图片.exe
+H:\C#\自悟\工作\练习\播放图片\播放图片\obj\Debug\播放图片.pdb

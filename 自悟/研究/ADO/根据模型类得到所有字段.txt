@@ -1,0 +1,22 @@
+Type type = 模型类.GetType();
+
+string Columns = string.Join(",",type.GetProperties().Select(p => string.Format("[{0}]",p.Name)));
+
+先说一下 最后实现的结果：把模型类的所有属性的名字 以逗号作为间隔连接在一起，并且 每个名字的格式 是[{xxx}]这个样子的。
+
+说一下实现步骤：
+
+·string.Join("分隔字符串","数组"); == 数组[0]+"分割字符串"+数组[1]+....
+
+·然后现在的目标就是解析 数组是怎么来的：
+
+·type.GetProperties().Select：通过合并元素的索引将序列的每个元素投影到新表中
+
+·现在解析每个元素：(p => string.Format("[{0}]",p.Name))
+
+·找到 每一个字段，然后进行string.Format("[{0}]",p.Name)这个加工操作，最后返回一个string类型的元素。
+
+这个办法吊炸天。。
+
+以后对我有大用！
+一会实现 它！

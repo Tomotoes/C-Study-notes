@@ -1,0 +1,8 @@
+H:\C#\自悟\工作\练习\字体变化速度\字体变化速度\bin\Debug\字体变化速度.exe.config
+H:\C#\自悟\工作\练习\字体变化速度\字体变化速度\bin\Debug\字体变化速度.exe
+H:\C#\自悟\工作\练习\字体变化速度\字体变化速度\bin\Debug\字体变化速度.pdb
+H:\C#\自悟\工作\练习\字体变化速度\字体变化速度\obj\Debug\字体变化速度.Form1.resources
+H:\C#\自悟\工作\练习\字体变化速度\字体变化速度\obj\Debug\字体变化速度.Properties.Resources.resources
+H:\C#\自悟\工作\练习\字体变化速度\字体变化速度\obj\Debug\字体变化速度.csproj.GenerateResource.Cache
+H:\C#\自悟\工作\练习\字体变化速度\字体变化速度\obj\Debug\字体变化速度.exe
+H:\C#\自悟\工作\练习\字体变化速度\字体变化速度\obj\Debug\字体变化速度.pdb

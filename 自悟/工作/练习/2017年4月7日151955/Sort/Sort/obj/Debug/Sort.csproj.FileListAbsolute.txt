@@ -1,0 +1,11 @@
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\Sort\Sort\bin\Debug\Sort.exe.config
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\Sort\Sort\bin\Debug\Sort.exe
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\Sort\Sort\bin\Debug\Sort.pdb
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\Sort\Sort\obj\Debug\Sort.exe
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\Sort\Sort\obj\Debug\Sort.pdb
+H:\C#\自悟\工作\练习\2017年4月7日151955\Sort\Sort\bin\Debug\Sort.exe.config
+H:\C#\自悟\工作\练习\2017年4月7日151955\Sort\Sort\obj\Debug\Sort.exe
+H:\C#\自悟\工作\练习\2017年4月7日151955\Sort\Sort\obj\Debug\Sort.pdb
+H:\C#\自悟\工作\练习\2017年4月7日151955\Sort\Sort\bin\Debug\Sort.exe
+H:\C#\自悟\工作\练习\2017年4月7日151955\Sort\Sort\bin\Debug\Sort.pdb
+H:\C#\自悟\工作\练习\2017年4月7日151955\Sort\Sort\obj\Debug\Sort.csprojResolveAssemblyReference.cache

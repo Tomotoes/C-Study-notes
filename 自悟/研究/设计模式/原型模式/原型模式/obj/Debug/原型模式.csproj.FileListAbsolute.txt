@@ -1,0 +1,6 @@
+G:\C#\自悟\研究\设计模式\原型模式\原型模式\bin\Debug\原型模式.exe.config
+G:\C#\自悟\研究\设计模式\原型模式\原型模式\bin\Debug\原型模式.exe
+G:\C#\自悟\研究\设计模式\原型模式\原型模式\bin\Debug\原型模式.pdb
+G:\C#\自悟\研究\设计模式\原型模式\原型模式\obj\Debug\原型模式.csprojResolveAssemblyReference.cache
+G:\C#\自悟\研究\设计模式\原型模式\原型模式\obj\Debug\原型模式.exe
+G:\C#\自悟\研究\设计模式\原型模式\原型模式\obj\Debug\原型模式.pdb

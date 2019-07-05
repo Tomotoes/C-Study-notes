@@ -1,0 +1,9 @@
+A:\临时文档\C#\判断质数\判断质数\bin\Debug\判断质数.exe.config
+A:\临时文档\C#\判断质数\判断质数\bin\Debug\判断质数.exe
+A:\临时文档\C#\判断质数\判断质数\bin\Debug\判断质数.pdb
+A:\临时文档\C#\判断质数\判断质数\obj\Debug\判断质数.csprojResolveAssemblyReference.cache
+A:\临时文档\C#\判断质数\判断质数\obj\Debug\判断质数.Form1.resources
+A:\临时文档\C#\判断质数\判断质数\obj\Debug\判断质数.Properties.Resources.resources
+A:\临时文档\C#\判断质数\判断质数\obj\Debug\判断质数.csproj.GenerateResource.Cache
+A:\临时文档\C#\判断质数\判断质数\obj\Debug\判断质数.exe
+A:\临时文档\C#\判断质数\判断质数\obj\Debug\判断质数.pdb

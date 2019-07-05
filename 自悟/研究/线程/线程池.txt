@@ -1,0 +1,12 @@
+线程的编程时 是方便的，但是每创建一个线程带来的资源开销是很大的。
+线程池里面有一定数量的线程。
+
+线程池：ThreadPool
+
+主要方法：ThreadPool.QueueUserWorkItem()等方法来提交相应的任务
+	 ·QueueUserWorkItem(WaitCallback,Object)
+	 ·QueueUserWorkItem(WaitCallback);
+	 ·其中 public delegate void WaitCallback(object state);
+
+	它就会想办法 ，新建线程或利用已有线程帮你执行方法
+

@@ -1,0 +1,13 @@
+ //Lambda
+            w y = x => x * x;
+            Console.WriteLine(y(5));
+            Q q = () => Console.WriteLine("Hello World！");
+            q();
+
+            Q r = () => Console.WriteLine("AC!");
+            r();
+
+            d e = (x,l) => x * l;
+            Console.WriteLine(e(4, 5));
+
+其中 w Q d 都是委托

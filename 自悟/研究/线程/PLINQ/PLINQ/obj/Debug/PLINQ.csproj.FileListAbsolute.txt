@@ -1,0 +1,9 @@
+D:\UserData\lenovo\Desktop\PLINQ\PLINQ\bin\Debug\PLINQ.exe.config
+D:\UserData\lenovo\Desktop\PLINQ\PLINQ\bin\Debug\PLINQ.exe
+D:\UserData\lenovo\Desktop\PLINQ\PLINQ\bin\Debug\PLINQ.pdb
+D:\UserData\lenovo\Desktop\PLINQ\PLINQ\obj\Debug\PLINQ.csprojResolveAssemblyReference.cache
+D:\UserData\lenovo\Desktop\PLINQ\PLINQ\obj\Debug\PLINQ.exe
+D:\UserData\lenovo\Desktop\PLINQ\PLINQ\obj\Debug\PLINQ.pdb
+H:\C#\自悟\研究\多线程\PLINQ\PLINQ\bin\Debug\PLINQ.exe.config
+H:\C#\自悟\研究\多线程\PLINQ\PLINQ\obj\Debug\PLINQ.exe
+H:\C#\自悟\研究\多线程\PLINQ\PLINQ\obj\Debug\PLINQ.pdb

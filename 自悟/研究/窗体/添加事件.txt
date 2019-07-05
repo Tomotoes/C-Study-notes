@@ -1,0 +1,17 @@
+button1.Click += (两次Tab)button1_Click;
+
+void button1_Click(object sender, EventArgs e)
+{ //throw new NotImplementedException(); xxxxxxxxxx; }
+
+
+添加委托事件
+
+
+
+
+button2.Click += new System.EventHandler(this.button1_Click);
+
+
+
+为按钮button2添加事件，并且该事件为button1的委托事件，很重要。
+说明 button2 的事件 也正是 button1的事件,这让我想起了 泛型方法

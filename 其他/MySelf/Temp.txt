@@ -1,0 +1,13 @@
+ Form HistoryForm = new Form();
+            HistoryForm.Size = new System.Drawing.Size(200, 250);
+            HistoryForm.StartPosition = FormStartPosition.CenterScreen;
+            HistoryForm.Show();
+            Button ok=new Button();
+            HistoryForm.ControlAdded(ok);
+            if (Date == "") { MessageBox.Show("您还没有进行任何计算。"); }
+            else { d = MessageBox.Show(Date, "查看记录", Ok);}
+            if (d == DialogResult.No)
+            {
+                HistoryForm.Close();
+                this.Visible = true;
+            }

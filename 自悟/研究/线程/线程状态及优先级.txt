@@ -1,0 +1,11 @@
+1.线程的状态枚举：ThreadState 里面有很多的状态
+  另外 你如果想设置某个状态：new Thread(Method).IsBackground = true ; 
+  例子中IsBackground  是后台线程 ，当主线程停止 它也会停止 ， 它是依赖主线程
+
+2.线程的优先级 ThreadPriority 也是个枚举
+  默认 普通 ，可以设置最高或者最低 或者 一般高一般低
+  
+3.线程的优先级决定了该线程可占用多少CPU时间。
+  也就是说，设置线程的优先级，也就是在设置 线程占用CPU的时间
+  Thread A=new Thread();
+  A.Priority=ThreadPriority.Highest;

@@ -1,0 +1,72 @@
+静态类相当于一个sealed abstract类，主要的一个优点是写在栈中，安全高速稳定，而且在执行的时候，十分优先。
+
+但是缺点也显而易见。
+
+静态类 不能创建实例，不能被继承
+
+可以为静态类定义一个 静态构造函数
+
+
+主要用于： 基础类库（System.Math）
+
+	   扩展方法
+
+如何扩展方法
+
+		如果有源代码，直接添加一个新方法
+
+		如果不能修改源代码  但也不是密闭类，可以派生子类扩展
+
+		如果以上条件都不满足 ，可以使用静态类。
+
+实例：
+
+	static class PetGuide{
+
+		public static double HowToFeed ( this Dog dog )
+		{ ... }
+	}
+
+	Dog dog = new Dog();
+	
+	dog.HowToFeed();
+
+	不得不承认，这真的很方便， 
+
+	就相当于 是 Dog类里面自己定义的方法一样，
+	
+	并且还不是静态方法，还可以通过对象调用！
+
+
+总结扩展要求：
+
+1.扩展方法所属的类，必须是 static类
+
+2.扩展方法 本身必须是 static方法
+
+3.扩展方法的第一个参数类型，必须是 this + 类名 +对象名（所以说要先创建对象）
+							
+
+就相当于 从外部（命名空间） 定义个入口（静态类） 然后定义个方法（静态方法）
+里面实现 增加对操作类的方法 扩展方法的第一个参数 必须是 this + 操作类名 + 对象名
+
+好像就是自己类的方法一样！
+
+
+
+上面说的多少有错误 不一定是类名，只要是一个 可实例化的类型即可
+
+
+public static string GetMark(this Enum enumValue)
+{
+	return enumValue.Tostring();
+}
+
+
+  // UserState.Deleted.GetRemark("Name")此时，扩展函数的第一个参数默认是 Deleted
+        public static string GetRemark(this UserState enumValue,string Name)
+        //这个扩展方法的类型 是UserState，所以说 是往 UserState里加了一个方法，
+        //其中参数 this UserState enumValue 代表了 此方法调用时的具体发出者，也就是本文中的 Deleted
+        //所以说，在调用此方法时，我们不必写出第一个参数，因为第一个参数，是方法的发出者！
+        //而在，第二个参数 string Name 变成了 调用扩展方法的第一个参数！且符合 函数调用规则，必须添加！
+

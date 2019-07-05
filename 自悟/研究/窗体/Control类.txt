@@ -1,0 +1,1 @@
+Windows中所有的控件都是 System.Windows.Forms.Control 的之类

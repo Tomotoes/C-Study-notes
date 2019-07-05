@@ -1,0 +1,9 @@
+A:\临时文档\C#\水仙花数\水仙花数\bin\Debug\水仙花数.exe.config
+A:\临时文档\C#\水仙花数\水仙花数\bin\Debug\水仙花数.exe
+A:\临时文档\C#\水仙花数\水仙花数\bin\Debug\水仙花数.pdb
+A:\临时文档\C#\水仙花数\水仙花数\obj\Debug\水仙花数.csprojResolveAssemblyReference.cache
+A:\临时文档\C#\水仙花数\水仙花数\obj\Debug\水仙花数.Form1.resources
+A:\临时文档\C#\水仙花数\水仙花数\obj\Debug\水仙花数.Properties.Resources.resources
+A:\临时文档\C#\水仙花数\水仙花数\obj\Debug\水仙花数.csproj.GenerateResource.Cache
+A:\临时文档\C#\水仙花数\水仙花数\obj\Debug\水仙花数.exe
+A:\临时文档\C#\水仙花数\水仙花数\obj\Debug\水仙花数.pdb

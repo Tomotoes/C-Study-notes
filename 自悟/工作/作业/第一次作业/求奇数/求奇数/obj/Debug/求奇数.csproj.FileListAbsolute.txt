@@ -1,0 +1,8 @@
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\求奇数\求奇数\bin\Debug\求奇数.exe.config
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\求奇数\求奇数\obj\Debug\求奇数.Form1.resources
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\求奇数\求奇数\obj\Debug\求奇数.Properties.Resources.resources
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\求奇数\求奇数\obj\Debug\求奇数.csproj.GenerateResource.Cache
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\求奇数\求奇数\bin\Debug\求奇数.exe
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\求奇数\求奇数\bin\Debug\求奇数.pdb
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\求奇数\求奇数\obj\Debug\求奇数.exe
+D:\UserData\lenovo\Documents\Visual Studio 2013\Projects\求奇数\求奇数\obj\Debug\求奇数.pdb

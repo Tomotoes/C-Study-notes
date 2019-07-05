@@ -1,0 +1,3 @@
+从网上搜得，保留着书签
+
+System.Environment.CurrentDirectory

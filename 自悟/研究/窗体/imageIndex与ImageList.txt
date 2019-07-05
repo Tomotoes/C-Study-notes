@@ -1,0 +1,7 @@
+先来介绍一个控件：ImageList
+其含义是：管理通常由其他控件（如：TreeView，ListView，ToolStrip）使用的图像集合。
+
+然后我们在TreeView，ListView，ToolStrip 这些控件中 找到 imageIndex 属性 。
+
+imageIndex属性：在某一ImageList控件中的所有图标中 选定一个作为当前控件 子节点的图标。
+注意：该属性设置的前提是，选项卡所属的TabControl 控件 的ImageIndex 属性  指向了 该ImageList控件对象。

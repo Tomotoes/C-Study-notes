@@ -1,0 +1,6 @@
+c:\users\simon\documents\visual studio 2017\Projects\文件流\文件流\bin\Debug\文件流.exe.config
+c:\users\simon\documents\visual studio 2017\Projects\文件流\文件流\bin\Debug\文件流.exe
+c:\users\simon\documents\visual studio 2017\Projects\文件流\文件流\bin\Debug\文件流.pdb
+c:\users\simon\documents\visual studio 2017\Projects\文件流\文件流\obj\Debug\文件流.csprojResolveAssemblyReference.cache
+c:\users\simon\documents\visual studio 2017\Projects\文件流\文件流\obj\Debug\文件流.exe
+c:\users\simon\documents\visual studio 2017\Projects\文件流\文件流\obj\Debug\文件流.pdb

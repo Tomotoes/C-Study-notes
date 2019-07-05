@@ -1,0 +1,3 @@
+可以在 代码中 //http://www.baidu.com
+
+然后根据提示 摁Ctrl 单点即可 在VS里打开网页

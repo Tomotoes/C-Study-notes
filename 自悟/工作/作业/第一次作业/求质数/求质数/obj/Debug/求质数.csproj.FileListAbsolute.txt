@@ -1,0 +1,12 @@
+A:\临时文档\C#\求质数\求质数\bin\Debug\求质数.exe.config
+A:\临时文档\C#\求质数\求质数\bin\Debug\求质数.exe
+A:\临时文档\C#\求质数\求质数\bin\Debug\求质数.pdb
+A:\临时文档\C#\求质数\求质数\obj\Debug\求质数.csprojResolveAssemblyReference.cache
+A:\临时文档\C#\求质数\求质数\obj\Debug\求质数.Form1.resources
+A:\临时文档\C#\求质数\求质数\obj\Debug\求质数.Properties.Resources.resources
+A:\临时文档\C#\求质数\求质数\obj\Debug\求质数.csproj.GenerateResource.Cache
+A:\临时文档\C#\求质数\求质数\obj\Debug\求质数.exe
+A:\临时文档\C#\求质数\求质数\obj\Debug\求质数.pdb
+H:\C#\自悟\Work\求质数\求质数\bin\Debug\求质数.exe.config
+H:\C#\自悟\Work\求质数\求质数\obj\Debug\求质数.exe
+H:\C#\自悟\Work\求质数\求质数\obj\Debug\求质数.pdb

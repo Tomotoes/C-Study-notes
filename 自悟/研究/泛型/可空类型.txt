@@ -1,0 +1,15 @@
+static void Main(string[] args)
+        {
+            /*
+             * int? 可空类型，见名知意
+             * 其值可以为null，便于异常处理
+             * 
+             * 不过在使用时，也有很大弊端，必须强制转换
+             * 下面是例子
+             */
+            int? A;
+            A = 5;
+            int B = A.Value * 5;
+            int C = (int)A * 5;
+            Console.WriteLine(B);
+        }

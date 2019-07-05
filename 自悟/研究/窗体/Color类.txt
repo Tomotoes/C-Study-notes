@@ -1,0 +1,3 @@
+Color对象.FromName("Red");
+
+当然也可以直接 调用 Color对象.Red;

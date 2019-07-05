@@ -1,0 +1,27 @@
+c:\users\lenovo\Documents\Visual Studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+c:\users\lenovo\Documents\Visual Studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+c:\users\lenovo\Documents\Visual Studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+c:\users\lenovo\Documents\Visual Studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+c:\users\lenovo\Documents\Visual Studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+c:\users\lenovo\Documents\Visual Studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+c:\users\lenovo\Documents\Visual Studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+c:\users\lenovo\Documents\Visual Studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+c:\users\lenovo\Documents\Visual Studio 2013\Projects\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+D:\UserData\lenovo\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+D:\UserData\lenovo\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+D:\UserData\lenovo\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+D:\UserData\lenovo\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+D:\UserData\lenovo\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+D:\UserData\lenovo\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+D:\UserData\lenovo\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+D:\UserData\lenovo\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+D:\UserData\lenovo\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+H:\C#\自悟\Work\第四次作业\字符串课堂练习\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+H:\C#\自悟\Work\第四次作业\字符串课堂练习\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+H:\C#\自悟\Work\第四次作业\字符串课堂练习\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+H:\C#\自悟\Work\第四次作业\字符串课堂练习\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+H:\C#\自悟\Work\第四次作业\字符串课堂练习\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+H:\C#\自悟\Work\第四次作业\字符串课堂练习\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+H:\C#\自悟\Work\第四次作业\字符串课堂练习\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+H:\C#\自悟\Work\第四次作业\字符串课堂练习\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+H:\C#\自悟\Work\第四次作业\字符串课堂练习\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache

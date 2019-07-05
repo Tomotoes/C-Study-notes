@@ -1,0 +1,4 @@
+H:\C#\自悟\研究\反射\动态加载和调用\ClassLibrary3\bin\Debug\ClassLibrary3.dll
+H:\C#\自悟\研究\反射\动态加载和调用\ClassLibrary3\bin\Debug\ClassLibrary3.pdb
+H:\C#\自悟\研究\反射\动态加载和调用\ClassLibrary3\obj\Debug\ClassLibrary3.dll
+H:\C#\自悟\研究\反射\动态加载和调用\ClassLibrary3\obj\Debug\ClassLibrary3.pdb
